@@ -87,32 +87,44 @@ textarea {
    ========================================================================== */
 
 body {
-    margin: 40px;
+    margin: 3em;
 }
 
-header {
-    width: 75%;
-    margin: 0 auto 1em auto;
-    
-}
-
-article {
-    margin-bottom: 2%;
-}
-
-p {
-    font-family: "Merriweather";
-    font-weight: 400;
+.lead {
+    padding-left: 0;
 }
 
 header.logo h1 {
     font-family: 'Monoton';
-    text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: lighter;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 0.3em;
-    letter-spacing: 0.5em;
+    margin-top: 0;
+    padding-left: 0;
+    letter-spacing: 0.75em;
+}
+
+span.lazuli:hover {
+    color: rgba(154, 239, 255,1);
+    cursor:pointer;
+}
+
+span.sand:hover{
+    color: rgba(255, 231, 152,1);
+    cursor:pointer;
+}
+span.lips:hover{
+    color: rgba(255, 152, 176,1);
+    cursor:pointer;
+}
+span#leaf:hover{
+    color:rgba(129, 254, 122, 1);
+}
+span#iris:hover {
+    color:rgba(135, 126, 255,1);
+}
+span#aquamarine:hover{
+    color:rgba(152, 255, 229,1);
 }
 
 header.logo p {
@@ -120,56 +132,73 @@ header.logo p {
     line-height: 0;
 }
 
-main.content {
-    width: 30%;
-    margin: 4% auto 0 auto;
-    
+nav.navbar {
+    margin-bottom: 0;
+}
+.lead {
+    margin-bottom: 0;
+}
+.masthead {
+    margin-bottom: 5em;
+}
+
+
+h2, p {
+    font-family: "Oxygen";
+}
+
+h2 {
+    color: rgba(65, 65, 65, 1);
+    font-size: 2em;
+}
+u {
+    text-decoration: none;
+    border-bottom: 1px solid grey;
 }
 
 img {
     max-width: 100%;
+    max-height: 200px;
+}
+.directions {
+    margin-bottom: 4em;
+}
+#kern {
+    padding-top: 20%;
+    
 }
 
-.blog_post {
-    padding-bottom: 10%;
+.blog_post img {
+    display: block;
 }
 
-img {
-    float: left;
-    height: 200px;
-    margin-bottom: 2%;
-    margin-right: 5%;
+.footer {
+  position: absolute;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+.footer p {
+    font-family: "Philosopher";
+    font-size: 2em;
 }
 
-.blog_post_info p {
-    font-family: "Merriweather";
-    font-weight: 200;
-    line-height: .75em;
-    padding-left: 15%;
-    white-space: nowrap;
+a {
+    color: grey;
 }
-.blog_post_info a {
-text-decoration: none;
-
-}
-.blog_post_info a:link {
-    text-decoration: none;
-    color: #000;
-}
-.blog_post_info a:hover {
-    text-decoration: none;
-}
-.blog_post_info a:visited {
-    text-decoration: none;
-    color: #000;
-}
-.blog_post_info a:active {
+a:link {
     text-decoration: none;
 }
+a:visited {
+    text-decoration: none;
 
-aside.blog_post_info p:first-child {
-    padding-top: 3%;
-    font-size: 1em;
+}
+a:hover{
+    text-decoration: none;  
+    color: grey;
+}
+a:active {
+    text-decoration: none;
 }
 /*====================*/
 /*====================*/
@@ -183,14 +212,16 @@ a.qlogo {
     font-size: 5em;
     letter-spacing: 0.2em;
     color: rgba(41, 243, 182, 1);
-
 }
+
 a.qlogo:link {
     text-decoration: none;
 }
+
 .qlogo a:visited {
     text-decoration: none;
 }
+
 a.qlogo:hover {
     color: rgba(255, 56, 143, 1);
 }
@@ -203,8 +234,6 @@ a.qlogo:active {
     margin-top: 2.5%;
 }
 
-
-
 main.mxt_plausible p {
     font-family: "Merriweather";
     font-weight: 300;
@@ -212,6 +241,7 @@ main.mxt_plausible p {
     font-size: 1.1em;
     line-height: 1.75em;
 }
+
 main.mxt_plausible a {
     text-decoration: underline;
     color: #000;
@@ -221,6 +251,7 @@ main.mxt_plausible a:hover {
     text-decoration: underline;
     color: #000;
 }
+
 .fa {
     opacity: 0.5;
     text-align: center;
@@ -269,6 +300,7 @@ main.mxt_plausible a:hover {
     opacity: 0.75;
     font-size: 4em;
 }
+
 #footling {
     padding-bottom: 5em;
 }
