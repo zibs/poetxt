@@ -90,6 +90,7 @@ body {
     margin: 3em;
 }
 
+
 .lead {
     padding-left: 0;
 }
@@ -161,7 +162,7 @@ img {
     max-height: 200px;
 }
 .directions {
-    margin-bottom: 4em;
+    margin-bottom: 5em;
 }
 #kern {
     padding-top: 20%;
@@ -172,11 +173,13 @@ img {
     display: block;
 }
 
+
 .footer {
   position: absolute;
   bottom: 0;
   /* Set the fixed height of the footer here */
   height: 60px;
+
 }
 .footer p {
     font-family: "Philosopher";
@@ -383,13 +386,22 @@ main.mxt_plausible a:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 35em) {
-    .blog_post_info p {
-        line-height: 1em;
-        padding-left: 15%;
-        white-space: normal;
+@media only screen and (max-width: 991px) {
+    .fa-level-down{
+        display:  none;
     }
+   
 }
+
+@media only screen and (max-width: 35em) {
+    header.logo h1{
+        font-size: 3em;
+    }
+    .blog_post {
+        margin-bottom: 2em;
+    }
+
+    }
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
