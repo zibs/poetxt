@@ -1,0 +1,798 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"paddint",
+				"padding-top"
+			],
+			[
+				"l",
+				"lighter"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"for",
+				"formula_one"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"my",
+				"my_database_test"
+			],
+			[
+				"my_",
+				"my_database_production"
+			],
+			[
+				"map",
+				"map	map { |e| .. }"
+			],
+			[
+				"wor",
+				"word_set_n"
+			],
+			[
+				"eac",
+				"each	Ruby each"
+			],
+			[
+				"next",
+				"next_two_characters"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"backr",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"followed",
+				"followed_id"
+			],
+			[
+				"follo",
+				"followed_id"
+			],
+			[
+				"assert",
+				"assert_redirected_to"
+			],
+			[
+				"update",
+				"update_columns"
+			],
+			[
+				"ass",
+				"assert_template"
+			],
+			[
+				"asser",
+				"assert_select"
+			],
+			[
+				"sess",
+				"sessions"
+			],
+			[
+				"follw",
+				"followed_id"
+			],
+			[
+				"micropo",
+				"microposts_path"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"reset",
+				"reset_token"
+			],
+			[
+				"activat",
+				"activated_at"
+			],
+			[
+				"asse",
+				"assert_select"
+			],
+			[
+				"pas",
+				"password_confirmation"
+			],
+			[
+				"passwor",
+				"password_field"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"remeb",
+				"remember_token"
+			],
+			[
+				"remember",
+				"remember_token"
+			],
+			[
+				"log",
+				"login_path"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"grav",
+				"gravatar_url"
+			],
+			[
+				"asset",
+				"assert_not"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"top",
+				"padding-top"
+			],
+			[
+				"cur",
+				"counter-reset"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"slide",
+				"slideshow-fanfare"
+			],
+			[
+				"slideshow",
+				"slideshow_fanfare"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"fals",
+				"false_stuff"
+			],
+			[
+				"false",
+				"false_value"
+			],
+			[
+				"true",
+				"true_value"
+			],
+			[
+				"retun",
+				"return_value"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3989,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 8965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "SxQ.html",
+			"settings":
+			{
+				"buffer_size": 9833,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/elizibin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/elizibin/Desktop/boilerplate/poetxt/css/main.css",
+		"/Users/elizibin/Desktop/wordplay/wordplay/config/routes.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/config/puma.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/controllers/wordplay_controller.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/javascripts/wordplay.js",
+		"/Users/elizibin/Desktop/wordplay/wordplay/Gemfile",
+		"/Users/elizibin/Desktop/wordplay/wordplay/config/database.yml",
+		"/Users/elizibin/Desktop/wordplay/wordplay/config/environments/production.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/Procfile",
+		"/Users/elizibin/Desktop/wordplay/wordplay/config/unicorn.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/views/layouts/_header.html",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/models/textblock.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/javascripts/application.js",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/javascripts/jquery-smooth-scroll.js",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/helpers/wordplay_helper.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/javascripts/wordplay.coffee",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/views/layouts/application.html.erb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/fonts/BebasNeue-Thin.otf",
+		"/Users/elizibin/Downloads/bebas/BebasNeue Book.otf",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/fonts/BebasNeueRegular.otf",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/fonts/BebasNeueBook.otf",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/fonts/untitled",
+		"/Users/elizibin/Downloads/bebas/BebasNeue Regular.otf",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/fonts/BebasNeue-Regular.otf",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/fonts",
+		"/Users/elizibin/Desktop/wordplay/wordplay/db/migrate/20150403052115_create_text_blocks.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/models/Text_block.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/controllers/application_controller.rb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/assets/stylesheets/custom.css.scss",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/views/layouts/wordplay.html.erb",
+		"/Users/elizibin/Desktop/wordplay/wordplay/app/views/wordplay/wordplay.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/blog_app/blog_app/config/routes.rb",
+		"/Users/elizibin/Desktop/rails-practice/blog_app/blog_app/app/controllers/blogposts_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/blog_app/blog_app/app/assets/images/Queyras_MxT.gif",
+		"/Users/elizibin/Desktop/rails-practice/blog_app/blog_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/elizibin/Desktop/rails-practice/blog_app/blog_app/app/assets/javascripts/application.js",
+		"/Users/elizibin/Desktop/rails-practice/blog_app/blog_app/.gitignore",
+		"/Users/elizibin/Desktop/rails-practice/lango/app/assets/stylesheets/custom.css.scss",
+		"/Users/elizibin/Desktop/rails-practice/lango/app/helpers/posts_helper.rb",
+		"/Users/elizibin/Desktop/gm/adorno",
+		"/Users/elizibin/Desktop/rails-practice/lango/config/secrets.yml",
+		"/Users/elizibin/Desktop/rails-practice/lango/app/views/posts/_post.html.erb",
+		"/Users/elizibin/Desktop/html/rz/webdev/index.html",
+		"/Users/elizibin/Desktop/rails-practice/ludo/app/views/layouts/application.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/ludo/app/views/displays/home.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/ludo/app/models/post.rb",
+		"/Users/elizibin/Desktop/rails-practice/ludo/app/controllers/application_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/ludo/Gemfile",
+		"/Users/elizibin/Desktop/rails-practice/ludo/app/assets/javascripts/application.js",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/relationships/create.js.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/relationships/destroy.js.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/uploaders/picture_uploader.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/shared/_feed.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/users_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/controllers/microposts_controller_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/integration/microposts_interface_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/helpers/microposts_helper.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/models/micropost_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/password_resets/edit.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/controllers/users_controller_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/mailers/user_mailer_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/mailers/previews/user_mailer_preview.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/mailers/user_mailer.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/password_resets_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/password_resets/new.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/db/seeds.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/sessions/new.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/static_pages/home.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/layouts/application.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/layouts/_header.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/layouts/_footer.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/users/edit.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/shared/_error_messages.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/static_pages_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/users/_fields.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/users/_user.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/users/new.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/users/show.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/microposts_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/application_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/db/migrate/20150103171154_create_microposts.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/helpers/application_helper.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/integration/users_profile_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/db/schema.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/integration/users_signup_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/test_helper.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/integration/password_resets_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/user_mailer/password_reset.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/user_mailer/password_reset.text.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/integration/users_index_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/user_mailer/account_activation.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/config/environments/development.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/models/user_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/account_activations_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/helpers/account_activations_helper.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/fixtures/users.yml",
+		"/Users/elizibin/Desktop/rails-practice/test_app/db/migrate/20150102222523_add_activation_to_users.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/config/environments/test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/user_mailer/account_activation.text.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/users/index.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/db/migrate/20150102190309_add_admin_to_users.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/test/helpers/sessions_helper_test.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/controllers/sessions_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/helpers/users_helper.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/Procfile",
+		"/Users/elizibin/Desktop/rails-practice/test_app/config/unicorn.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/config/environments/production.rb",
+		"/Users/elizibin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/elizibin/Desktop/rails-practice/test_app/db/migrate/20150101193708_add_index_to_users_email.rb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/.gitignore",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/views/layouts/_shim.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/test_app/app/assets/javascripts/application.js",
+		"/Users/elizibin/Desktop/rails-practice/app/app/controllers/password_resets_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/assets/stylesheets/custom.css.scss",
+		"/Users/elizibin/Desktop/rails-practice/app/app/controllers/sessions_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/helpers/application_helper.rb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/assets/javascripts/microposts.js.coffee",
+		"/Users/elizibin/Desktop/rails-practice/app/app/models/user.rb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/controllers/account_activations_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/app/Gemfile",
+		"/Users/elizibin/Desktop/rails-practice/app/app/controllers/static_pages_controller.rb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/views/users/show.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/views/shared/_micropost_form.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/views/layouts/application.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/app/app/views/users/_fields.html.erb",
+		"/Users/elizibin/Desktop/rails-practice/testingapp/Gemfile.lock"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"ichbcme"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a la",
+			"al la",
+			"pata",
+			"a",
+			" \n",
+			"...",
+			"static",
+			"pg",
+			"vh",
+			"*",
+			"wordplay",
+			"textbox",
+			"group",
+			"img",
+			"font-size",
+			"html",
+			"init",
+			"users",
+			"red",
+			"submit",
+			"boostrap",
+			"display",
+			"feed",
+			"render",
+			"follower",
+			"select",
+			"drop",
+			"dropdown",
+			"images",
+			"rspec",
+			"back",
+			"inline",
+			"p",
+			"h1",
+			"body",
+			"back",
+			"pollock",
+			"body",
+			"center",
+			"blue",
+			"textarea",
+			"<!",
+			"section",
+			"secontion",
+			"form",
+			"pink",
+			"red",
+			"ssl",
+			"User",
+			"success",
+			"p",
+			"untitled",
+			"winter",
+			",",
+			"‘",
+			"`",
+			"'",
+			"’",
+			"“",
+			"”",
+			"\"",
+			"the",
+			"noise",
+			"nviose",
+			"no voice",
+			"\"",
+			"'",
+			"\"",
+			"[",
+			"poet",
+			"po et",
+			"the",
+			"Poetry",
+			"poetry",
+			"remembered",
+			"\",\n",
+			"increase",
+			"fuel\",\n\"Making",
+			"\",\n\"Making",
+			"\n\"",
+			"be\",\n\"To",
+			"\",\n\"To",
+			"\n\"",
+			"\",\n\"But",
+			"\n\"",
+			"alert",
+			">\n",
+			"></",
+			"h3",
+			"e` ",
+			"MRE",
+			"e` </p",
+			"e` </",
+			"` ",
+			" </",
+			"` ",
+			" </",
+			"` </p",
+			" </",
+			"\n    ",
+			"	<",
+			" </",
+			"MRE",
+			"s",
+			"Hey",
+			"now",
+			"right",
+			"lolololololgerd",
+			"mer",
+			"mergerd",
+			"> heyyyi",
+			" hey",
+			" HEY",
+			"GTAREEMREE",
+			"	\n",
+			"slow",
+			"T",
+			"r",
+			"ready",
+			"ichbcme",
+			"fanfare",
+			"html",
+			"read",
+			"2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"wdkymms",
+			"",
+			",",
+			"(",
+			"AJSDJASJD",
+			"poetry",
+			"fanfare"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3107,
+								3116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 446.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 8965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3296,
+								3296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2265.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "SxQ.html",
+					"settings":
+					{
+						"buffer_size": 9833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8113,
+								8113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 566.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true
+}

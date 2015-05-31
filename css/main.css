@@ -90,6 +90,9 @@ body {
     margin: 3em;
 }
 
+img {
+    max-width: 100%;
+}
 
 .lead {
     padding-left: 0;
@@ -106,26 +109,30 @@ header.logo h1 {
 }
 
 span.lazuli:hover {
-    color: rgba(154, 239, 255,1);
-    cursor:pointer;
+    color: rgba(154, 239, 255, 1);
+    cursor: pointer;
 }
 
-span.sand:hover{
-    color: rgba(255, 231, 152,1);
-    cursor:pointer;
+span.sand:hover {
+    color: rgba(255, 231, 152, 1);
+    cursor: pointer;
 }
-span.lips:hover{
-    color: rgba(255, 152, 176,1);
-    cursor:pointer;
+
+span.lips:hover {
+    color: rgba(255, 152, 176, 1);
+    cursor: pointer;
 }
-span#leaf:hover{
-    color:rgba(129, 254, 122, 1);
+
+span#leaf:hover {
+    color: rgba(129, 254, 122, 1);
 }
+
 span#iris:hover {
-    color:rgba(135, 126, 255,1);
+    color: rgba(135, 126, 255, 1);
 }
-span#aquamarine:hover{
-    color:rgba(152, 255, 229,1);
+
+span#aquamarine:hover {
+    color: rgba(152, 255, 229, 1);
 }
 
 header.logo p {
@@ -136,51 +143,54 @@ header.logo p {
 nav.navbar {
     margin-bottom: 0;
 }
+
 .lead {
     margin-bottom: 0;
 }
+
 .masthead {
     margin-bottom: 5em;
 }
 
-
-h2, p {
+.homepage {
     font-family: "Oxygen";
 }
 
-h2 {
+.homepage h2 {
     color: rgba(65, 65, 65, 1);
     font-size: 2em;
 }
-u {
+
+.homepage u {
     text-decoration: none;
     border-bottom: 1px solid grey;
 }
 
-img {
+.homepage img {
     max-width: 100%;
     max-height: 200px;
 }
+
 .directions {
     margin-bottom: 5em;
 }
+
 #kern {
     padding-top: 20%;
-    
 }
 
 .blog_post img {
     display: block;
 }
 
-
 .footer {
-  position: absolute;
-  bottom: 0;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-
+    position: absolute;
+    bottom: 0;
+    /* Set the fixed height of the footer here */
+    
+    height: 60px;
 }
+
 .footer p {
     font-family: "Philosopher";
     font-size: 2em;
@@ -189,17 +199,20 @@ img {
 a {
     color: grey;
 }
+
 a:link {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
-
 }
-a:hover{
-    text-decoration: none;  
+
+a:hover {
+    text-decoration: none;
     color: grey;
 }
+
 a:active {
     text-decoration: none;
 }
@@ -307,6 +320,113 @@ main.mxt_plausible a:hover {
 #footling {
     padding-bottom: 5em;
 }
+/*====================*/
+/*====================*/
+/*Their Biography Kevin Mcpherson Eckhoff */
+/*====================*/
+/*====================*/
+
+a.tblogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(20, 76, 204, 1);
+}
+
+a.tblogo:link {
+    text-decoration: none;
+}
+
+.tblogo a:visited {
+    text-decoration: none;
+}
+
+a.tblogo:hover {
+    color: rgba(255, 116, 0, 1);
+}
+
+a.tblogo:active {
+    text-decoration: none;
+}
+
+.book_info {
+    width: 25%;
+}
+
+.book_info img {
+    max-width: 100%;
+    max-height: 200px;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.eckhoffs_undoing {
+    font-family: "Merriweather";
+    font-weight: 300;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-top: 4em;
+}
+.eckhoffs_undoing pre {
+    background-color: white;
+    border: none;
+}
+main.eckhoffs_undoing a {
+    text-decoration: underline;
+    color: #000;
+}
+
+main.eckhoffs_undoing a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.chapter {
+    margin: 1em 0;
+}
+
+aside p {
+    text-align: left;
+}
+
+#theflyer {
+    float: right;
+}
+
+#whoiskevin {
+    margin: 2em 0 1.5em 0;
+}
+
+#sourcekevin {
+    margin: 1em 0 1.5em 0;
+}
+
+#loveexpires {
+    margin: 1em 0 2em 0;
+}
+
+#lovenotice {
+    height: 30px;
+    margin: 1em 0 1em 0;
+}
+
+#blanklove {
+    float: left;
+    margin-right: 0.5em;
+    height: 220px;
+    border: 1px solid grey;
+    padding: 0;
+}
+
+.finale {
+    margin-top: 4em;
+}
+
+.finale img {
+    margin: 2em 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -387,21 +507,19 @@ main.mxt_plausible a:hover {
    ========================================================================== */
 
 @media only screen and (max-width: 991px) {
-    .fa-level-down{
-        display:  none;
+    .fa-level-down {
+        display: none;
     }
-   
 }
 
 @media only screen and (max-width: 35em) {
-    header.logo h1{
+    header.logo h1 {
         font-size: 3em;
     }
     .blog_post {
         margin-bottom: 2em;
     }
-
-    }
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
