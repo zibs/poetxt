@@ -12,6 +12,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -332,7 +333,7 @@ a.tblogo {
     font-family: "Monoton";
     font-size: 5em;
     letter-spacing: 0.2em;
-    color: rgba(20, 76, 204, 1);
+    color: rgba(255, 19, 0, 1);
 }
 
 a.tblogo:link {
@@ -370,10 +371,12 @@ a.tblogo:active {
     line-height: 1.5em;
     margin-top: 4em;
 }
+
 .eckhoffs_undoing pre {
     background-color: white;
     border: none;
 }
+
 main.eckhoffs_undoing a {
     text-decoration: underline;
     color: #000;
@@ -427,6 +430,230 @@ main.eckhoffs_undoing a:hover {
 
 .finale img {
     margin: 1em 0 2em 0;
+}
+/* ==========================================================================
+/* ==========================================================================
+ KERN derek beaulieu
+==========================================================================
+========================================================================== */
+
+a.klogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(251, 0, 13, 1);
+}
+
+a.klogo:link {
+    text-decoration: none;
+}
+
+.klogo a:visited {
+    text-decoration: none;
+}
+
+a.klogo:hover {
+    color: rgba(36, 59, 206, 1);
+}
+
+a.logo:active {
+    text-decoration: none;
+}
+
+.kernels {
+    font-family: "Merriweather";
+    font-weight: 300;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.75em;
+    margin-top: 5em ;
+    width: 80%;
+
+}
+
+.kerns-longest-words {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.kerns-longest-words p:last-child {
+    font-size: initial;
+    font-weight: 300;
+    font-size: 0.4em;
+    /*text-align: left;*/
+}
+
+.kerns-longest-word-clump {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 0.1em;
+    text-align: center;
+}
+
+main.kernels a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.every-q p:first-child {
+    font-size: 15em;
+    margin-top: 0.5em;
+}
+
+.every-q p:nth-child(2) {
+    font-size: 15em;
+    transform: rotate(15deg);
+}
+
+.every-q p:nth-child(3) {
+    font-size: 15em;
+    transform: rotate(30deg);
+}
+
+.every-q p:nth-child(4) {
+    font-size: 15em;
+    transform: rotate(45deg);
+}
+
+.every-q p:nth-child(5) {
+    font-size: 15em;
+    transform: rotate(60deg);
+}
+
+.every-q p:nth-child(6) {
+    font-size: 15em;
+    transform: rotate(75deg);
+}
+
+.every-q p:nth-child(7) {
+    font-size: 15em;
+    transform: rotate(90deg);
+}
+
+.every-q p:nth-child(8) {
+    font-size: 15em;
+    transform: rotate(105deg);
+}
+
+.every-q p:nth-child(9) {
+    font-size: 15em;
+    transform: rotate(120deg);
+}
+
+.every-q p:nth-child(10) {
+    font-size: 15em;
+    transform: rotate(135deg);
+}
+
+.every-q p:nth-child(11) {
+    font-size: 15em;
+    transform: rotate(150deg);
+}
+
+.every-q p:nth-child(12) {
+    font-size: 15em;
+    transform: rotate(165deg);
+    margin-bottom: 0.5em;
+}
+
+.every-q p:last-child {
+    position: relative;
+    margin-bottom: 4em;
+    z-index: 2;
+    font-size: initial;
+    font-weight: 300;
+    font-size: 0.85em;
+}
+
+.authorial-intrusion {
+    color: grey;
+}
+
+.pleasenomore {
+    position: relative;
+    margin: 2em 0;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.pleasenomore p:last-child {
+    width: 80%;
+    margin: 2.5em auto;
+    white-space: pre-wrap;
+    text-align: justify;
+}
+
+.kern-every-e {
+    margin: 4em 0;
+}
+
+.top-row p {
+    display: inline-block;
+    line-height: 0.1em;
+}
+
+.letter:nth-child(2n+1) {
+    transform: scale(2.5) rotate(15deg);
+    /*color: purple;*/
+    
+    letter-spacing: 0.5em;
+}
+
+.letter:nth-child(3n+1) {
+    transform: skewX(15deg) rotate(100deg) translateY(35px);
+    font-size: 2em;
+    /*color: green;*/
+    
+    letter-spacing: 0.2em;
+}
+
+.letter:nth-child(10n+300) {
+    transform: rotate(180deg);
+    font-size: 3em;
+}
+
+.letter:nth-child(300n) {
+    font-size: 9em;
+    transform: skewX(120deg);
+}
+
+.letter:nth-child(50n+4) {
+    transform: skewY(200deg);
+    /*  color: blue;*/
+    
+    font-size: 5em;
+}
+
+.letter:nth-child(100n+69) {
+    font-size: 15em;
+    float: left;
+    /*color: pink;*/
+}
+
+.letter:nth-child(100n+50) {
+    font-size: 4em;
+    transform: translateX(-1em) skewY(20deg);
+    /*color: yellow;*/
+}
+
+.middle p {
+    display: inline-block;
+    line-height: 0.3em;
+}
+.kern-definition {
+    margin-top: 5em;
+}
+
+.fj {
+    margin: 1em;
+    font-size: 25em;
+
+
 }
 /* ==========================================================================
    Helper classes
