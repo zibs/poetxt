@@ -97,21 +97,18 @@ img {
 
 .lead {
     padding-left: 0;
-    
-
-
 }
 
 header.logo h1 {
     font-family: 'Monoton';
     font-size: 16vw;
     transform: scaleY(1.1);
-    font-stretch: ultra-expanded;
     font-weight: lighter;
     margin-top: 0;
     padding-left: 0;
     letter-spacing: 0.2em;
 }
+
 
 #poetical-underline {
     height: 14vh;
@@ -160,11 +157,11 @@ nav.navbar {
 }
 
 .masthead {
-    font-family: "Courier New";
+    font-family: "Oxygen";
     font-size: 0.9em;
     opacity: 0.9;
     font-weight: bold;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 
 }
 
@@ -189,7 +186,7 @@ nav.navbar {
 }
 
 .directions {
-    font-family: "Courier New";
+    font-family: "Oxygen";
     margin-bottom: 2em;
 }
 
