@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
 
 body {
-    margin: 3em;
+    margin:0 3em 3em 3em;
 }
 
 img {
@@ -97,18 +97,33 @@ img {
 
 .lead {
     padding-left: 0;
+    
+
+
 }
 
 header.logo h1 {
     font-family: 'Monoton';
-    font-size: 5em;
+    font-size: 16vw;
+    transform: scaleY(1.1);
+    font-stretch: ultra-expanded;
     font-weight: lighter;
-    border-bottom: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
     margin-top: 0;
     padding-left: 0;
-    letter-spacing: 0.75em;
+    letter-spacing: 0.2em;
 }
+/*header.logo:last-child {*/
+    /*border-bottom: 1px solid #ccc;*/
+    /*background-image: url("../img/blankee.png")*/
 
+/*}*/
+#poetical-underline {
+    height: 14vh;
+    position: relative;
+    bottom: 2.5em;
+    /*opacity: 0.5;*/
+}
 span.lazuli:hover {
     color: rgba(154, 239, 255, 1);
     cursor: pointer;
@@ -150,16 +165,21 @@ nav.navbar {
 }
 
 .masthead {
-    margin-bottom: 5em;
+    font-family: "Courier New";
+    font-size: 0.9em;
+    opacity: 0.9;
+    font-weight: bold;
+    margin-bottom: 1em;
+
 }
 
 .homepage {
     font-family: "Helvetica Neue";
-    text-align: justify;
+    
 }
 
 .homepage h2 {
-    color: rgba(65, 65, 65, 1);
+    /*color: rgba(65, 65, 65, 1);*/
     font-size: 2em;
 }
 
@@ -174,7 +194,8 @@ nav.navbar {
 }
 
 .directions {
-    margin-bottom: 5em;
+    font-family: "Courier New";
+    margin-bottom: 2em;
 }
 
 #kern {
@@ -333,7 +354,7 @@ a.tblogo {
     font-family: "Monoton";
     font-size: 5em;
     letter-spacing: 0.2em;
-    color: rgba(255, 19, 0, 1);
+    color: rgba(154, 0, 197,1);
 }
 
 a.tblogo:link {
