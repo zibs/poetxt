@@ -108,21 +108,16 @@ header.logo h1 {
     transform: scaleY(1.1);
     font-stretch: ultra-expanded;
     font-weight: lighter;
-    /*border-bottom: 1px solid #ccc;*/
     margin-top: 0;
     padding-left: 0;
     letter-spacing: 0.2em;
 }
-/*header.logo:last-child {*/
-    /*border-bottom: 1px solid #ccc;*/
-    /*background-image: url("../img/blankee.png")*/
 
-/*}*/
 #poetical-underline {
     height: 14vh;
     position: relative;
     bottom: 2.5em;
-    /*opacity: 0.5;*/
+    
 }
 span.lazuli:hover {
     color: rgba(154, 239, 255, 1);
