@@ -667,8 +667,89 @@ main.kernels a {
 .fj {
     margin: 1em;
     font-size: 25em;
+}
+
+/* ==========================================================================
+/* ==========================================================================
+THRUM NATALIE SIMPSON
+==========================================================================
+========================================================================== */
+
+a.slogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(255, 244, 86, 1);
+}
+
+a.slogo:link {
+    text-decoration: none;
+}
+
+.slogo a:visited {
+    text-decoration: none;
+}
+
+a.slogo:hover {
+    color: rgba(192, 192, 192, 1);
+}
+
+a.slogo:active {
+    text-decoration: none;
+}
 
 
+.thrum-hum {
+    font-family: "Merriweather";
+    font-weight: 300;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.75em;
+    margin-top: 5em ;
+    width: 80%;
+
+}
+main.thrum-hum a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.sounding {
+    margin-bottom: 8em;
+}
+.sounding p {
+    display: inline-block;
+
+    /*margin-bottom: 1.1em;*/
+}
+.benjam {
+    margin-bottom: 8em;
+}
+.benjam p {
+    display: inline-block;
+
+}
+.sifting {
+    margin-bottom: 5em;
+}
+.sifting p {
+    display: inline-block;
+}
+
+.stein-begin {
+    margin-bottom: 5em;
+}
+.the-hapax {
+    margin-bottom: 5em;
+}
+.letter-action-language p:last-child {
+    font-size: 0.75em;
+    margin-bottom: 5em;
+
+}
+.dabar {
+    margin-bottom: 5em;
 }
 /* ==========================================================================
    Helper classes
