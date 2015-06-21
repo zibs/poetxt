@@ -773,6 +773,72 @@ main.thrum-hum a {
 .dabar {
     margin-bottom: 5em;
 }
+
+
+
+/* ==========================================================================
+/* ==========================================================================
+AS WHEN TOM RAWORTH
+==========================================================================
+========================================================================== */
+
+a.ralogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(129, 47, 49, 1);
+}
+
+a.ralogo:link {
+    text-decoration: none;
+}
+
+.ralogo a:visited {
+    text-decoration: none;
+}
+
+a.ralogo:hover {
+    color: rgba(97, 122, 44, 1);
+}
+
+a.ralogo:active {
+    text-decoration: none;
+}
+
+.rara {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-top: 5em ;
+    width: 80%;
+
+
+}
+main.rara a {
+    text-decoration: underline;
+    color: #000;
+}
+
+#tom-dedicate {
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+.foundlangra {
+       font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1em;
+    line-height: 2em;
+    background-color: white;
+    border: none;
+    text-align: right;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
