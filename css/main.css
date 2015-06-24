@@ -104,12 +104,13 @@ img {
 
 header.logo h1 {
     font-family: 'Monoton';
-    font-size: 16vw;
+    font-size: 13vw;
     transform: scaleY(1.1);
     font-weight: lighter;
     margin-top: 0;
     padding-left: 0;
     letter-spacing: 0.2em;
+    opacity: 0.5;
 }
 
 
@@ -117,16 +118,16 @@ header.logo h1 {
     height: 12vh;
     position: relative;
     bottom: 2.5em;
-    opacity: 0.8;
+    opacity: 0.5;
 
     
 }
-span.lazuli {
+span.lazuli:hover {
     color: rgba(154, 239, 255, 1);
     
 }
 
-span.sand {
+span.sand:hover {
     color: rgba(255, 231, 152, 1);
     
 }
@@ -163,7 +164,7 @@ nav.navbar {
 
 .masthead {
     font-family: "Oxygen";
-    font-size: 0.9em;
+    font-size: 1em;
     opacity: 0.9;
     font-weight: bold;
     margin-bottom: 3em;
@@ -488,6 +489,7 @@ a.logo:active {
     line-height: 1.75em;
     margin-top: 5em ;
     width: 80%;
+    
 
 
 }
@@ -621,6 +623,8 @@ main.kernels a {
 
 .kern-every-e {
     margin: 4em 0;
+    
+
 
 }
 
@@ -937,11 +941,9 @@ main.rara a {
     }
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 992em) {
     /* Style adjustments for viewports that meet the condition */
-    html.kernels  {
-        overflow-x:hidden;
-    }
+   
 }
 
 @media print,
