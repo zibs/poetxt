@@ -489,6 +489,7 @@ a.logo:active {
     margin-top: 5em ;
     width: 80%;
 
+
 }
 
 .kerns-longest-words {
@@ -620,6 +621,7 @@ main.kernels a {
 
 .kern-every-e {
     margin: 4em 0;
+
 }
 
 .top-row p {
@@ -937,6 +939,9 @@ main.rara a {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    html.kernels  {
+        overflow-x:hidden;
+    }
 }
 
 @media print,
