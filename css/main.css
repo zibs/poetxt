@@ -91,6 +91,7 @@ textarea {
 
 body {
     margin:0 3em 3em 3em;
+    overflow-y: hidden;
 }
 
 img {
