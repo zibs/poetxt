@@ -846,6 +846,53 @@ main.rara a {
     border: none;
     text-align: right;
 }
+/* ==========================================================================
+/* ==========================================================================
+BARDY GOOGLE FRANK DAVEY
+==========================================================================
+========================================================================== */
+
+a.bglogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(143, 167, 245,1);
+}
+
+a.bglogo:link {
+    text-decoration: none;
+}
+
+.bglogo a:visited {
+    text-decoration: none;
+}
+
+a.bglogo:hover {
+    color: rgba(131, 225, 243, 1);
+}
+
+a.bglogo:active {
+    text-decoration: none;
+}
+
+.bardglow {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-top: 5em ;
+    width: 80%;
+    
+
+
+}
+main.bardglow a {
+    text-decoration: underline;
+    color: #000;
+}
+
 
 
 /* ==========================================================================
