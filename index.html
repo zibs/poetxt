@@ -22,19 +22,20 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
     </head>
-    <body>
+    <body>  
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-<nav class="navbar">
+        
+<nav class="navbar titlewhite">
     <header class="logo lead text-center">
         <h1><span class="lazuli">p</span><span class="sand">o</span><span class="lips">e</span><span id="leaf">t</span><span id="aquamarine">x</span><span id="iris">t</span></h1>
         
     </header>
 </nav>
-
-<main class="homepage container">
+<main class="homepage container titlewhite">
     <section class="masthead row">
         <article class = "col-md-4 col-md-offset-1 ">
             <p>A WEBLOG ON CONTEMPORARY POETICS: <br>  
@@ -44,57 +45,54 @@
        
     </section>
 
-    <section class="directions row">
+    <section class="directions row whitewrap">
      <figure class="col-md-8 text-center col-md-offset-2">
-            <img id ="poetical-underline" src="img/blankee.png" alt="poetical underline">
+            <!-- <img id ="poetical-underline" src="img/blankee.png" alt="poetical underline"> -->
         </figure>
     </section>
 
-
-    <section class="row blogline ">
+    <section class="row blogline whitewrap">
         <article class="blog_post col-md-2 col-sm-3 col-xs-6 col-md-offset-2 ">
             <a href="SxQ.html"><img class= "img-responsive" src = "img/Queyras_MxT.gif" alt = "Sina Queyras' MxT" /></a>
             <p><strong>MxT</strong> - <i>Sina Queyras</i></p>
-            
         </article>
+
          <article class="blog_post col-md-2 col-sm-3 col-xs-6">
-            <a href="Their-Biography.html"><img class= "img-responsive"src="img/eckhoff_biography.png"alt = "Kevin Mcpherson Eckhoff's Their Biography" /></a>
+            <a href="Their-Biography.html"><img class= "img-responsive"src="img/eckhoff_biography.png" alt = "Kevin Mcpherson Eckhoff's Their Biography" /></a>
             <p><strong>Their Biography</strong> - <i>kevin mcpherson eckhoff</i></p>
         </article>
 
          <article class="blog_post col-md-2 col-sm-3 col-xs-6 ">
-            <a href="Kern.html"><img class= "img-responsive"src="img/beaulieu_kern.png"alt="Derek Beaulieu's Kern"id="kern" /></a>
+            <a href="Kern.html"><img class= "img-responsive"src="img/beaulieu_kern.png" alt="Derek Beaulieu's Kern"id="kern" /></a>
             <p><strong>Kern</strong> - <i>derek beaulieu</i></p>
         </article>
 
          <article class="blog_post col-md-2 col-sm-3 col-xs-6">
              <a href="Thrum.html"><img class= "img-responsive" src = "img/thrum_simpson.png" alt = "Natalie Simpson's Thrum" /></a>
             <p><strong>Thrum</strong> - <i> Natalie Simpson </i></p>
-
-      
         </article>
-         
     </section>
 
-    <section class="row blogline">
+    <section class="row blogline whitewrap">
         <article class="blog_post col-md-2 col-sm-3 col-xs-6 col-md-offset-2  ">
-               <a href="AsWhen.html"><img class= "img-responsive"src="img/raworth_as_when.png"alt = "Tom Raworth's As When" /></a>
+               <a href="AsWhen.html"><img class= "img-responsive"src="img/raworth_as_when.png" alt = "Tom Raworth's As When" /></a>
          <p><strong>As When</strong> - <i>Tom Raworth</i></p>
      </article>
 
         <article class="blog_post col-md-2 col-sm-3 col-xs-6">
-               <a href="Bardy-Google.html"><img class= "img-responsive"src="img/bardygoogle.jpg"alt = "Frank Davey's Bardy Google" /></a>
+               <a href="Bardy-Google.html"><img class= "img-responsive"src="img/bardygoogle.jpg" alt = "Frank Davey's Bardy Google" /></a>
          <p><strong>Bardy Google</strong> - <i>Frank Davey</i></p>
         </article>
     </section>
-
-   
 </main>
-<!-- <footer class="footer"> -->
-        <!-- <aside class="container info text-right text-muted"> -->
-            <!-- <a href="#"><p>?</p></a> -->
-        <!-- </aside> -->
- 
+<aside id="contact">        
+        <p> poetxt - texts on poetics - posts weekly.</p>        
+        <p> poetxt encourages suggestions, commentary, discussion, critique, contributions, coprolallia, interjections, invectives, bombast, vituperations, ambage, acyrology, and conversations at: </p>
+        <p><a href="mailto:poetxt@poetxt.ca"target="_blank"><u>poetxt@poetxt.ca</u></a></p> 
+</aside>
+<footer class="footer">
+        <p class="pull-right text-muted" id ="query" onclick="queries()">?</p>
+</footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>

@@ -90,7 +90,7 @@ textarea {
    ========================================================================== */
 
 body {
-    margin:0 3em 3em 3em;
+    margin:0 3em 2em 3em;
 
 }
 
@@ -110,7 +110,7 @@ header.logo h1 {
     margin-top: 0;
     padding-left: 0;
     letter-spacing: 0.2em;
-    opacity: 0.5;
+    opacity: 0.666;
 }
 
 
@@ -173,6 +173,7 @@ nav.navbar {
 
 .homepage {
     font-family: "Helvetica Neue";
+    margin-bottom: 4em;
     
 }
 
@@ -204,21 +205,9 @@ nav.navbar {
     display: block;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    /* Set the fixed height of the footer here */
-    
-    height: 60px;
-}
-
-.footer p {
-    font-family: "Philosopher";
-    font-size: 2em;
-}
 
 a {
-    color: grey;
+    color: black;
 }
 
 a:link {
@@ -231,12 +220,69 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: grey;
+    color: black;
 }
 
 a:active {
     text-decoration: none;
 }
+footer {
+   position:fixed;
+   bottom:0px;
+   right: 10em;
+   height:4em;
+   width:100%;
+   /*background:#999;*/
+}
+#query {
+    font-family: "Oxygen";
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 2;
+
+}
+#query:hover {
+    color:black;
+}
+
+#contact {
+    display: none;
+    /*text-align: center;*/
+    background-color: rgba(255, 255, 255, 0.99);
+    border-radius: 1em;
+    border-color: rgba(118, 255, 3, 1);
+    box-shadow: 0 1px 1px rgba(152, 255, 229, 1) inset, 0 0 50px rgba(152, 255, 229, 1);
+    outline: 0 none;
+    height: 30%;
+    width: 30%;
+    margin: -150px 0 0 -150px;
+    top: 50%;
+    left: 45%;
+    position: fixed;
+    padding: 1em;
+}
+#contact p {
+    font-family: "Oxygen";
+    margin-left: 1em;
+    font-weight: bold;
+    text-align: justify;
+
+}
+#contact p:first-child {
+    margin: 1em 0 1.5em 1em;
+}
+#contact p:last-child{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}
+.whitewrap {
+    display:none;
+}
+.titlewhite{
+    display:none;
+}
+
 /*====================*/
 /*====================*/
 /*MxT Sina Queyras */
@@ -884,7 +930,10 @@ a.bglogo:active {
     line-height: 2em;
     margin-top: 5em ;
     width: 80%;
-    
+} 
+.bardglow article {
+    margin-bottom: 5em;
+    text-indent: 4em;
 
 
 }
