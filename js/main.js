@@ -1,9 +1,3 @@
-// On click we want to:
-// fade the body opacity down to 0.25% by selecting the body element and changing the opacity
-
-// have the element be already centered, but merely hidden, and then have the JS take off the hidden element function? 
-
-
 $(document).ready(function(){
     $(".whitewrap").delay(400).fadeIn(2000)
 });
@@ -29,3 +23,15 @@ $(document).ready(function () {
   });
 
 
+
+// Nav adjust on scroll eventually
+// (function($) {          
+    // $(document).ready(function(){                    
+        // $(window).scroll(function(){                          
+            // if ($(this).scrollTop() > 200) {
+                // $('#menu').fadeIn(500);
+            // } else {
+                // $('#menu').fadeOut(500);
+            // }
+        // });
+    // });
