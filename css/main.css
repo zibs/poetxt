@@ -316,6 +316,9 @@ a.qlogo:active {
 .book_info {
     margin-top: 2.5%;
 }
+.book_info a {
+    color: grey;
+}
 
 main.mxt_plausible p {
     font-family: "Merriweather";
@@ -943,7 +946,113 @@ main.bardglow a {
 }
 
 
+/* ==========================================================================
+/* ==========================================================================
+FORAGE RITA WONG
+==========================================================================
+========================================================================== */
 
+
+
+a.fologo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(151, 255, 0,    1);
+}
+
+a.fologo:link {
+    text-decoration: none;
+}
+
+.fologo a:visited {
+    text-decoration: none;
+}
+
+a.fologo:hover {
+    color: rgba(0, 205, 62, 1);
+}
+
+a.fologo:active {
+    text-decoration: none;
+}
+
+.forages {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-top: 5em ;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    overflow: hidden;
+} 
+.intervene {
+    
+    background-color: white;
+    font-family: "Courier";
+    font-size: 0.9em;
+    margin: 0 auto;
+    word-break: break-word;
+    width: 90%;
+    
+
+}
+.fontent {
+    position: relative;
+    line-height: 2.2em;
+    bottom: 2em;
+    margin-bottom: 8em;
+    text-indent: 3em;
+}
+.left-lateral p {
+    display: inline;
+}
+.right-lateral p {
+    display: inline;
+}
+.left-lateral { 
+    display: inline-block;
+    padding-right: 13em;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg); 
+    transform-origin: left top 0;
+    text-align: justify;
+    font-size: 0.8em;
+
+}
+
+.stretchtext{
+  width:100%;
+  height:1em;
+  display:inline-block;
+}
+
+.right-lateral  {
+    display: inline-block;
+    float: right;
+    padding-left: 15em;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg); 
+    transform-origin: right top 0;
+    text-align: justify;
+    font-size: 0.8em;
+
+    height: 10px;
+
+
+}
+
+.bottom-lateral {
+    text-align: justify;
+    font-size: 0.8em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -1056,6 +1165,12 @@ main.bardglow a {
     }
     .blog_post {
         margin-bottom: 5em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .{
+        display: none;
     }
 }
 
