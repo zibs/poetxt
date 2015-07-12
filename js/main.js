@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 $(document).ready(function () {
    $("#query").hover(function () {
-    $(".homepage, .navbar").fadeTo("fast",0.08)
+    $(".homepage, .navbar").stop(true, true).fadeTo("fast",0.08)
 }, function() {
 	$(".homepage, .navbar").fadeTo(2500,1);
 	});
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
    $("#query").hover(function () {
-    $("#contact").delay(200).fadeIn("slow")
+    $("#contact").stop(true, true).delay(200).fadeIn("slow")
 }, function() {
 	$("#contact").delay(300).fadeOut(2750);
 	});
