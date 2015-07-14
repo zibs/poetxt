@@ -1053,6 +1053,69 @@ a.fologo:active {
     text-align: justify;
     font-size: 0.8em;
 }
+
+
+/* ==========================================================================
+/* ==========================================================================
+AGE OF HUTS RON SILLIMAN
+==========================================================================
+========================================================================== */
+
+a.sillogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(200, 30, 0,    1);
+}
+
+a.sillogo:link {
+    text-decoration: none;
+}
+
+.sillogo a:visited {
+    text-decoration: none;
+}
+
+a.sillogo:hover {
+    color: rgba(50, 15, 200, 1);
+}
+
+a.sillogo:active {
+    text-decoration: none;
+}
+
+.revolving {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1.1em;
+    line-height: 2em;
+    margin-top: 5em ;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    text-indent: 4em;
+    overflow: hidden;
+}
+
+.revolving article.row {
+    margin-bottom: 8em;
+}
+.revolving iframe {
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
