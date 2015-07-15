@@ -7,14 +7,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 /*vendor webkit */
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -90,8 +88,7 @@ textarea {
    ========================================================================== */
 
 body {
-    margin:0 3em 2em 3em;
-
+    margin: 0 3em 2em 3em;
 }
 
 img {
@@ -113,28 +110,23 @@ header.logo h1 {
     opacity: 0.666;
 }
 
-
 #poetical-underline {
     height: 12vh;
     position: relative;
     bottom: 2.5em;
     opacity: 0.5;
-
-    
 }
+
 span.lazuli:hover {
     color: rgba(154, 239, 255, 1);
-    
 }
 
 span.sand:hover {
     color: rgba(255, 231, 152, 1);
-    
 }
 
 span.lips:hover {
     color: rgba(255, 57, 57, 1);
-    
 }
 
 span#leaf:hover {
@@ -168,17 +160,16 @@ nav.navbar {
     opacity: 0.9;
     font-weight: bold;
     margin-bottom: 3em;
-
 }
 
 .homepage {
     font-family: "Helvetica Neue";
     margin-bottom: 4em;
-    
 }
 
 .homepage h2 {
     /*color: rgba(65, 65, 65, 1);*/
+    
     font-size: 2em;
 }
 
@@ -205,7 +196,6 @@ nav.navbar {
     display: block;
 }
 
-
 a {
     color: black;
 }
@@ -226,28 +216,31 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
 footer {
-   position:fixed;
-   bottom:0px;
-   right: 10em;
-   height:4em;
-   width:100%;
-   /*background:#999;*/
+    position: fixed;
+    bottom: 0px;
+    right: 10em;
+    height: 4em;
+    width: 100%;
+    /*background:#999;*/
 }
+
 #query {
     font-family: "Oxygen";
     font-size: 2em;
     cursor: pointer;
     z-index: 2;
-
 }
+
 #query:hover {
-    color:black;
+    color: black;
 }
 
 #contact {
     display: none;
     /*text-align: center;*/
+    
     background-color: rgba(255, 255, 255, 0.99);
     border-radius: 1em;
     border-color: rgba(118, 255, 3, 1);
@@ -261,28 +254,31 @@ footer {
     position: fixed;
     padding: 1em;
 }
+
 #contact p {
     font-family: "Oxygen";
     margin-left: 1em;
     font-weight: bold;
     text-align: justify;
-
 }
+
 #contact p:first-child {
     margin: 1em 0 1.5em 1em;
 }
-#contact p:last-child{
+
+#contact p:last-child {
     margin-top: 2em;
     text-align: center;
     font-size: 1.2em;
 }
+
 .whitewrap {
-    display:none;
-}
-.titlewhite{
-    display:none;
+    display: none;
 }
 
+.titlewhite {
+    display: none;
+}
 /*====================*/
 /*====================*/
 /*MxT Sina Queyras */
@@ -316,6 +312,7 @@ a.qlogo:active {
 .book_info {
     margin-top: 2.5%;
 }
+
 .book_info a {
     color: grey;
 }
@@ -326,7 +323,6 @@ main.mxt_plausible p {
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.75em;
-
 }
 
 main.mxt_plausible a {
@@ -402,7 +398,7 @@ a.tblogo {
     font-family: "Monoton";
     font-size: 5em;
     letter-spacing: 0.2em;
-    color: rgba(154, 0, 197,1);
+    color: rgba(154, 0, 197, 1);
 }
 
 a.tblogo:link {
@@ -536,11 +532,8 @@ a.logo:active {
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.75em;
-    margin-top: 5em ;
+    margin-top: 5em;
     width: 80%;
-    
-
-
 }
 
 .kerns-longest-words {
@@ -579,13 +572,13 @@ main.kernels a {
 .every-q p:nth-child(2) {
     font-size: 15em;
     transform: rotate(15deg);
-    -webkit-transform:rotate(15deg);
+    -webkit-transform: rotate(15deg);
 }
 
 .every-q p:nth-child(3) {
     font-size: 15em;
     transform: rotate(30deg);
-    -webkit-transform:(30deg);
+    -webkit-transform: (30deg);
 }
 
 .every-q p:nth-child(4) {
@@ -639,7 +632,7 @@ main.kernels a {
 .every-q p:nth-child(12) {
     font-size: 15em;
     transform: rotate(165deg);
-    -webkit-transform:rotate(165deg);
+    -webkit-transform: rotate(165deg);
     margin-bottom: 0.5em;
 }
 
@@ -672,10 +665,6 @@ main.kernels a {
 
 .kern-every-e {
     margin: 4em 0;
-    
-
-        
-
 }
 
 .top-row p {
@@ -693,7 +682,7 @@ main.kernels a {
 
 .letter:nth-child(3n+1) {
     transform: skewX(15deg) rotate(100deg) translateY(35px);
-    -webkit-transform:skewX(15deg) rotate(100deg) translateY(35px);
+    -webkit-transform: skewX(15deg) rotate(100deg) translateY(35px);
     font-size: 2em;
     /*color: green;*/
     
@@ -702,7 +691,7 @@ main.kernels a {
 
 .letter:nth-child(10n+300) {
     transform: rotate(180deg);
-    -webkit-transform:rotate(180deg);
+    -webkit-transform: rotate(180deg);
     font-size: 3em;
 }
 
@@ -738,6 +727,7 @@ main.kernels a {
     display: inline-block;
     line-height: 0.3em;
 }
+
 .kern-definition {
     margin-top: 5em;
 }
@@ -746,7 +736,6 @@ main.kernels a {
     margin: 1em;
     font-size: 25em;
 }
-
 /* ==========================================================================
 /* ==========================================================================
 THRUM NATALIE SIMPSON
@@ -777,18 +766,16 @@ a.slogo:active {
     text-decoration: none;
 }
 
-
 .thrum-hum {
     font-family: "Merriweather";
     font-weight: 300;
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.75em;
-    margin-top: 5em ;
+    margin-top: 5em;
     width: 80%;
-
-
 }
+
 main.thrum-hum a {
     text-decoration: underline;
     color: #000;
@@ -797,21 +784,24 @@ main.thrum-hum a {
 .sounding {
     margin-bottom: 8em;
 }
+
 .sounding p {
     display: inline-block;
-
     /*margin-bottom: 1.1em;*/
 }
+
 .benjam {
     margin-bottom: 8em;
 }
+
 .benjam p {
     display: inline-block;
-
 }
+
 .sifting {
     margin-bottom: 5em;
 }
+
 .sifting p {
     display: inline-block;
 }
@@ -819,20 +809,19 @@ main.thrum-hum a {
 .stein-begin {
     margin-bottom: 5em;
 }
+
 .the-hapax {
     margin-bottom: 5em;
 }
+
 .letter-action-language p:last-child {
     font-size: 0.75em;
     margin-bottom: 5em;
-
 }
+
 .dabar {
     margin-bottom: 5em;
 }
-
-
-
 /* ==========================================================================
 /* ==========================================================================
 AS WHEN TOM RAWORTH
@@ -867,14 +856,13 @@ a.ralogo:active {
     font-family: "Merriweather";
     font-weight: 300;
     /*text-align: justify;*/
+    
     font-size: 1.1em;
     line-height: 2em;
-    margin-top: 5em ;
+    margin-top: 5em;
     width: 80%;
-    
-
-
 }
+
 main.rara a {
     text-decoration: underline;
     color: #000;
@@ -886,9 +874,10 @@ main.rara a {
 }
 
 .foundlangra {
-       font-family: "Merriweather";
+    font-family: "Merriweather";
     font-weight: 300;
     /*text-align: justify;*/
+    
     font-size: 1em;
     line-height: 2em;
     background-color: white;
@@ -906,7 +895,7 @@ a.bglogo {
     font-family: "Monoton";
     font-size: 5em;
     letter-spacing: 0.2em;
-    color: rgba(143, 167, 245,1);
+    color: rgba(143, 167, 245, 1);
 }
 
 a.bglogo:link {
@@ -929,37 +918,34 @@ a.bglogo:active {
     font-family: "Merriweather";
     font-weight: 300;
     /*text-align: justify;*/
+    
     font-size: 1.1em;
     line-height: 2em;
-    margin-top: 5em ;
+    margin-top: 5em;
     width: 80%;
-} 
+}
+
 .bardglow article {
     margin-bottom: 5em;
     text-indent: 4em;
-
-
 }
+
 main.bardglow a {
     text-decoration: underline;
     color: #000;
 }
-
-
 /* ==========================================================================
 /* ==========================================================================
 FORAGE RITA WONG
 ==========================================================================
 ========================================================================== */
 
-
-
 a.fologo {
     text-decoration: none;
     font-family: "Monoton";
     font-size: 5em;
     letter-spacing: 0.2em;
-    color: rgba(151, 255, 0,    1);
+    color: rgba(151, 255, 0, 1);
 }
 
 a.fologo:link {
@@ -982,26 +968,26 @@ a.fologo:active {
     font-family: "Merriweather";
     font-weight: 300;
     /*text-align: justify;*/
+    
     font-size: 1.1em;
     line-height: 2em;
-    margin-top: 5em ;
+    margin-top: 5em;
     padding-left: 5em;
     margin-left: 5em;
     padding-right: 5em;
     margin-right: 5em;
     overflow: hidden;
-} 
+}
+
 .intervene {
-    
     background-color: white;
     font-family: "Courier";
     font-size: 0.9em;
     margin: 0 auto;
     word-break: break-word;
     width: 90%;
-    
-
 }
+
 .fontent {
     position: relative;
     line-height: 2.2em;
@@ -1009,52 +995,49 @@ a.fologo:active {
     margin-bottom: 8em;
     text-indent: 3em;
 }
+
 .left-lateral p {
     display: inline;
 }
+
 .right-lateral p {
     display: inline;
 }
-.left-lateral { 
+
+.left-lateral {
     display: inline-block;
     padding-right: 13em;
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg); 
+    -moz-transform: rotate(90deg);
     transform-origin: left top 0;
     text-align: justify;
     font-size: 0.8em;
-
 }
 
-.stretchtext{
-  width:100%;
-  height:1em;
-  display:inline-block;
+.stretchtext {
+    width: 100%;
+    height: 1em;
+    display: inline-block;
 }
 
-.right-lateral  {
+.right-lateral {
     display: inline-block;
     float: right;
     padding-left: 15em;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
     transform-origin: right top 0;
     text-align: justify;
     font-size: 0.8em;
-
     height: 10px;
-
-
 }
 
 .bottom-lateral {
     text-align: justify;
     font-size: 0.8em;
 }
-
-
 /* ==========================================================================
 /* ==========================================================================
 AGE OF HUTS RON SILLIMAN
@@ -1066,7 +1049,7 @@ a.sillogo {
     font-family: "Monoton";
     font-size: 5em;
     letter-spacing: 0.2em;
-    color: rgba(200, 30, 0,    1);
+    color: rgba(200, 30, 0, 1);
 }
 
 a.sillogo:link {
@@ -1089,9 +1072,10 @@ a.sillogo:active {
     font-family: "Merriweather";
     font-weight: 300;
     /*text-align: justify;*/
+    
     font-size: 1.1em;
     line-height: 2em;
-    margin-top: 5em ;
+    margin-top: 5em;
     padding-left: 5em;
     margin-left: 5em;
     padding-right: 5em;
@@ -1103,17 +1087,35 @@ a.sillogo:active {
 .revolving article.row {
     margin-bottom: 8em;
 }
+
 .revolving iframe {
     margin-top: 1em;
 }
 
+/*Silligraphs*/
+#silligraph {
+    opacity: 0;
+}
 
+#silligrapha {
+    opacity: 0;
+}
 
+#silligraphb {
+    opacity: 0;
+}
 
+#silligraphc {
+    opacity: 0;
+}
 
+#silligraphd {
+    opacity: 0;
+}
 
-
-
+#silligraphe {
+    opacity: 0;
+}
 
 
 /* ==========================================================================
@@ -1211,7 +1213,7 @@ a.sillogo:active {
 }
 
 @media only screen and (max-width: 767px) {
-     header.logo h1 {
+    header.logo h1 {
         font-size: 5em;
     }
     .blog_post {
@@ -1220,7 +1222,7 @@ a.sillogo:active {
 }
 
 @media only screen and (max-width: 480px) {
-     header.logo h1 {
+    header.logo h1 {
         font-size: 3.5em;
     }
     .masthead {
@@ -1232,15 +1234,13 @@ a.sillogo:active {
 }
 
 @media only screen and (max-width: 992px) {
-    .{
+    . {
         display: none;
     }
 }
 
-     
 @media only screen and (min-width: 992em) {
     /* Style adjustments for viewports that meet the condition */
-   
 }
 
 @media print,

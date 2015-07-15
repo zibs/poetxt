@@ -57,6 +57,70 @@ $(document).ready(function () {
 
 
 
+$(document).ready(function() {
+  $(window).scroll( function(){
+    var bottom_of_front_page_image = $("#silligraph").offset().top + ($("#silligraph").outerHeight()/4);
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > bottom_of_front_page_image) {
+      $("#silligraph").animate({'opacity':'1'}, 750);
+    }
+  });   
+});
+$(document).ready(function() {
+  $(window).scroll( function(){
+    var bottom_of_front_page_image = $("#silligrapha").offset().top + ($("#silligrapha").outerHeight()/4);
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > bottom_of_front_page_image) {
+      $("#silligrapha").animate({'opacity':'1'}, 750);
+    }
+  });   
+});
+$(document).ready(function() {
+  $(window).scroll( function(){
+    var bottom_of_front_page_image = $("#silligraphb").offset().top + ($("#silligraphb").outerHeight()/4);
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > bottom_of_front_page_image) {
+      $("#silligraphb").animate({'opacity':'1'}, 750);
+    }
+  });   
+});
+
+$(document).ready(function() {
+  $(window).scroll( function(){
+    var bottom_of_front_page_image = $("#silligraphc").offset().top + ($("#silligraphc").outerHeight()/4);
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > bottom_of_front_page_image) {
+      $("#silligraphc").animate({'opacity':'1'}, 750);
+    }
+  });   
+});
+
+$(document).ready(function() {
+  $(window).scroll( function(){
+    var bottom_of_front_page_image = $("#silligraphd").offset().top + ($("#silligraphd").outerHeight()/4);
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > bottom_of_front_page_image) {
+      $("#silligraphd").animate({'opacity':'1'}, 750);
+    }
+  });   
+});
+
+$(document).ready(function() {
+  $(window).scroll( function(){
+    var bottom_of_front_page_image = $("#silligraphe").offset().top + ($("#silligraphe").outerHeight()/4);
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+    if (bottom_of_window > bottom_of_front_page_image) {
+      $("#silligraphe").animate({'opacity':'1'}, 750);
+    }
+  });   
+});
+
   
 
 
