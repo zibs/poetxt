@@ -22,6 +22,11 @@ $(document).ready(function () {
   });
 
 
+
+// 
+//  WONG
+
+
 // SET LEFT-TRILATERALONE ON PAGE LOAD AND CLEAR
 $(document).ready(function () {
     setTimeout(function() { 
@@ -54,6 +59,11 @@ $(document).ready(function () {
   $(".right-lateral").css({"width": (height_of_element + "px")});
   });
 });
+
+
+
+// 
+// SILLIMAN
 
 
 
@@ -121,7 +131,45 @@ $(document).ready(function() {
   });   
 });
 
-  
+
+
+// 
+// REIMER
+
+$(function(){
+  $('.great-music').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  // If you want to keep full screen on window resize
+  $(window).resize(function(){
+    $('.great-music').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  });
+});
+
+
+$(document).ready(function() { 
+  $( "#bladefish" ).hover(function() {
+    $( "#bladefish" ).effect( "pulsate", {times:500},  1000 )   
+  });
+});
+
+$(document).ready(function() {
+  $("#bucks").hover(function() {
+    $("#bucks").toggle("explode");
+  });
+});
+$(document).ready(function() {
+  $("#coin").hover(function() {
+    $("#coin").toggle("puff", "slow");
+  });
+});
+
+$(document).ready(function() {
+  $("#color").hover(function() {
+    $("#color").toggle("puff", "slow");
+  });
+});
+
+
+
 
 
   // SET LEFT-TRILATERALTWO ON PAGE LOAD AND CLEAR

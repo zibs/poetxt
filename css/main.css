@@ -1119,6 +1119,107 @@ a.sillogo:active {
 
 
 /* ==========================================================================
+/* ==========================================================================
+DOWNVERSE NIKKI REIMER
+==========================================================================
+========================================================================== */
+
+
+a.downlogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    color: rgba(122, 16, 255, 1);
+}
+
+a.downlogo:link {
+    text-decoration: none;
+}
+
+.downlogo a:visited {
+    text-decoration: none;
+}
+
+a.downlogo:hover {
+    color: rgba(255, 192, 0, 1);
+}
+
+a.downlogo:active {
+    text-decoration: none;
+}
+
+.downversed {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1.1em;
+    line-height: 2.2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: justify;
+    overflow: hidden;
+}
+.downversed .row {
+    margin-bottom: 8em;
+}
+
+
+
+.downversed img {
+    margin: 5em 0;
+}
+
+
+.flarjcollage {
+    position: relative;
+}
+.flarjcollage img {
+   
+}
+
+#bladefish {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+
+#bucks {
+    position: relative;
+    left: 10em;
+    height: 80vh;
+}
+
+#coin {
+    position: absolute;
+    right: 2%;
+    height: 40vh;
+}
+
+.dinos {
+    position: relative;
+
+}
+
+#color {
+    position: relative;
+}
+#csi {
+    position: relative;
+    bottom: 25em;
+}
+#moon {
+    height: 100vh;
+}
+
+#realestate {
+    height: 400vh;
+}
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 /*
