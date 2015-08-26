@@ -1317,7 +1317,7 @@ a.malogo:active {
     padding-bottom: 5%;
 }
 
-.row > section pre {
+.malice > article.row > section pre {
     margin-bottom: 5%;
 }
 pre.donnedone {
@@ -1344,6 +1344,81 @@ pre.kandlinge {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+
+/* ==========================================================================
+/* ==========================================================================
+CUTUP APOLOGETIC JAMIE SHARPE
+==========================================================================
+========================================================================== */
+
+
+
+a.culogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+
+     background: -webkit-linear-gradient(#66DA22, #F9CC27);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.culogo:link {
+    text-decoration: none;
+}
+
+.culogo a:visited {
+    text-decoration: none;
+}
+
+a.culogo:hover {
+   background: -webkit-linear-gradient(#3e2ead, #E52350);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+    
+}
+
+a.culogo:active {
+    text-decoration: none;
+}
+
+.cutup {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+
+    
+}
+
+.cutup > article.row {
+    margin-bottom: 5%;
+}
+
+.cutup pre {
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
