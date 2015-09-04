@@ -1417,6 +1417,48 @@ a.culogo:active {
 
 }
 
+/* ==========================================================================
+/* ==========================================================================
+THINK TANK JULIE CARR
+==========================================================================
+========================================================================== */
+a.ttlogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+
+     background: -webkit-linear-gradient(#66DA22, #F9CC27);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a.ttlogo:link {
+    text-decoration: none;
+}
+
+.ttlogo a:visited {
+    text-decoration: none;
+}
+
+a.ttlogo:hover {
+   background: -webkit-linear-gradient(#3e2ead, #E52350);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    
+    
+}
+
+a.ttlogo:active {
+    text-decoration: none;
+}
+
+
+
+
 
 
 /* ==========================================================================
