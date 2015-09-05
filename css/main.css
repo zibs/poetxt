@@ -1430,9 +1430,9 @@ a.ttlogo {
     /*color: rgba(8, 16, 25, 1);*/
     font-size: 72px;
 
-     background: -webkit-linear-gradient(#66DA22, #F9CC27);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+     background: -webkit-linear-gradient(#FF7400, #00C5C5);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
 
 a.ttlogo:link {
@@ -1444,7 +1444,7 @@ a.ttlogo:link {
 }
 
 a.ttlogo:hover {
-   background: -webkit-linear-gradient(#3e2ead, #E52350);
+   background: -webkit-linear-gradient(#3f2efd, #E99359);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -1457,6 +1457,44 @@ a.ttlogo:active {
 }
 
 
+
+.think {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+
+    
+}
+.asterisk {
+    margin-bottom: 5%;
+}
+.think > article.row {
+    margin-bottom: 5%;
+}
+
+.think pre {
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+
+}
+
+.think > .row > h1 {
+    font-size: 50em;
+    
+
+
+}  
 
 
 
