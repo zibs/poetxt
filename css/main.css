@@ -1311,6 +1311,7 @@ a.malogo:active {
 .malice > article.row p {
     margin-bottom: 5%;
 }
+
 .kenquote {
     font-size: 20em;
     margin-bottom: 12%;
@@ -1320,6 +1321,7 @@ a.malogo:active {
 .malice > article.row > section pre {
     margin-bottom: 5%;
 }
+
 pre.donnedone {
     background-color: white;
     font-size: 4em;
@@ -1336,6 +1338,7 @@ pre.donnesplat {
 pre.donnejustice {
     letter-spacing: 20px;
 }
+
 pre.kandlinge {
     font-size: 100em;
 }
@@ -1352,8 +1355,6 @@ CUTUP APOLOGETIC JAMIE SHARPE
 ==========================================================================
 ========================================================================== */
 
-
-
 a.culogo {
     text-decoration: none;
     font-family: "Monoton";
@@ -1361,10 +1362,9 @@ a.culogo {
     letter-spacing: 0.2em;
     /*color: rgba(8, 16, 25, 1);*/
     font-size: 72px;
-
-     background: -webkit-linear-gradient(#66DA22, #F9CC27);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#66DA22, #F9CC27);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.culogo:link {
@@ -1376,12 +1376,9 @@ a.culogo:link {
 }
 
 a.culogo:hover {
-   background: -webkit-linear-gradient(#3e2ead, #E52350);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-    
-    
+    background: -webkit-linear-gradient(#3e2ead, #E52350);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.culogo:active {
@@ -1402,8 +1399,6 @@ a.culogo:active {
     /*text-indent: 2em;*/
     text-align: left;
     overflow: hidden;
-
-    
 }
 
 .cutup > article.row {
@@ -1414,14 +1409,15 @@ a.culogo:active {
     background-color: white;
     border: none;
     margin-bottom: 0;
-
 }
+
 
 /* ==========================================================================
 /* ==========================================================================
 THINK TANK JULIE CARR
 ==========================================================================
 ========================================================================== */
+
 a.ttlogo {
     text-decoration: none;
     font-family: "Monoton";
@@ -1429,10 +1425,9 @@ a.ttlogo {
     letter-spacing: 0.2em;
     /*color: rgba(8, 16, 25, 1);*/
     font-size: 72px;
-
-     background: -webkit-linear-gradient(#FF7400, #00C5C5);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#FF7400, #00C5C5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.ttlogo:link {
@@ -1444,19 +1439,14 @@ a.ttlogo:link {
 }
 
 a.ttlogo:hover {
-   background: -webkit-linear-gradient(#3f2efd, #E99359);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-    
-    
+    background: -webkit-linear-gradient(#3f2efd, #E99359);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 a.ttlogo:active {
     text-decoration: none;
 }
-
-
 
 .think {
     font-family: "Merriweather";
@@ -1472,12 +1462,12 @@ a.ttlogo:active {
     /*text-indent: 2em;*/
     text-align: left;
     overflow: hidden;
-
-    
 }
+
 .asterisk {
     margin-bottom: 5%;
 }
+
 .think > article.row {
     margin-bottom: 5%;
 }
@@ -1486,18 +1476,98 @@ a.ttlogo:active {
     background-color: white;
     border: none;
     margin-bottom: 0;
-
 }
 
 .think > .row > h1 {
     font-size: 50em;
-    
+}
 
 
-}  
+/* ==========================================================================
+ASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERY
+   ========================================================================== */
+
+a.ashlogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+    background: -webkit-linear-gradient(#00A8FF, #00FF85);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.ashlogo:link {
+    text-decoration: none;
+}
+
+.ashlogo a:visited {
+    text-decoration: none;
+}
 
 
 
+a.ashlogo:hover {
+    background: -webkit-linear-gradient(#FF0041, #FF0000 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.ashlogo:active {
+    text-decoration: none;
+}
+/*bliue*/
+
+.ashfont {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 6em;
+}
+.ashberyaha {
+    font-family: "Merriweather";
+    font-weight: 300;
+    /*text-align: justify;*/
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+}
+.ashberyaha h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+}
+
+img.ashbery {
+    max-height: 400px;
+
+}
+.ashberyaha pre {
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+  
+}
+.ashberyaha pre.concave {
+    font-family: "Times New Roman";
+    font-size: 1.25em;
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+  
+}
+main.ashberyaha > section.row {
+
+    margin-bottom: 3.5em;
+
+}
 
 /* ==========================================================================
    Helper classes

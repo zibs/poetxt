@@ -1,0 +1,260 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ashbery: Collected Poems 1956-1987</title>
+    <meta name="description" content="A poetry weblog of text responding to contemporary poetics">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="favicon.ico?v=2" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar titlewhite">
+        <header class="container">
+            <a class="ashlogo" href="http://poetxt.ca">poetxt</a>
+            <aside class=" book_info pull-right">
+                <figure>
+                    <img src="img/Ashbery.jpg" alt="Julie Carr's Think Tank" />
+                    <p><strong>Collected Poems 1956-1987</strong></p>
+                    <p><em>John Ashbery</em></p>
+                    <p><a href="https://www.loa.org/volume.jsp?RequestID=291">Library of America</a></p>
+                </figure>
+            </aside>
+            <article class="blog_title">
+                <h3> <span class="ashfont">Ashbery</span>  ANTYNOMICS </h3>
+            </article>
+        </header>
+    </nav>
+    <main class="ashberyaha">
+        <section class="row">
+            <p>Something different for this week methinks. But this is a great book and I love it. I haven't read all of it yet, but I will eventually. And who shouldn't? - it seems like <em>everyone</em> loves John Ashbery. Indeed, there's a conceptual poem waiting to be writ that collates each Ashbery rhapsody professed from these past centuries. "He has won nearly every major American award for poetry"; "Ashbery's phenomenological eye fixes itself not so much on ordinary living and doing as on the specific act of composing a poem"; "verbal canvas"; "But it is popularly believed, with some reason, that the style itself is impenetrable"; "Besides, the essential subjects of Ashbery's poetry—subjectivity and time . . .—are themselves general and elusive" etc. etc. etc. All these even just come from the introduction on <a href="http://www.poetryfoundation.org/bio/john-ashbery"><u>The Poetry Foundation</u></a> anyways. </p>
+        </section>
+        <section class="row">
+            <img src="img/self-portrait-ashbery.jpg" alt="Ashbery Selfie" class="center-block img-responsive ashbery">
+        </section>
+        <section class="row">
+            <p>
+                So instead of trying to decode, decipher, didact, elaborate, interrogate, explore, investigate, understand, subvert, expose any misunderstood, unmistakably inappropriate readings of Ashbery, contextualize, or supplement, not that these aren't important, or interesting, or valueable to read at times, I am, instead, just going to throw his most canonized poem, the <a href="http://www.poetryfoundation.org/poetrymagazine/browse/124/5#!/20596528"><b><u>Self-Portrait in a Convex Mirror</u></b></a> into a computer program that will rewrite it, one which iterates through the poem, replacing each word with its antonym. I call it Self-Portrait in a Concave Mirror.
+            </p>
+        </section>
+        <section class="row">
+            <img src="img/self-portrait-parmigianino.jpg" alt="Selfie Seventeenth Century Style" class="center-block img-responsive ashbery">
+        </section>
+
+        <section class="row">
+            <p>For anyone who is curious - the code is really simple, and just runs on top of <a href="http://nlp.stanford.edu/"><u>Stanford's Natural Language Processing (NLP) software</u></a>. The code I'm using is written in <a href="https://www.ruby-lang.org/en/"><u>Ruby</u></a> and uses the <a href="https://github.com/louismullie/treat"><u>Treat gem</u></a> which just packages up the Stanford NLP for me to use!</p>
+
+            <p>The program basically runs like this: </p>
+            <img src="img/rubyash.png" alt="Ashbery code" class = "center-block img-responsive" style = "max-height:600px;">
+            <p>I pass in whatever document I want - in this case its an Ashbery poem, but it could be the entire text if I had a pdf, or found a torrent... - whatever, the resulting poem initially looks like this: </p>
+            <img src="img/rubyash2.png" alt="Concave Mirror" class = "center-block img-responsive" style = "max-height: 500px;">
+
+        </section>
+
+        <section class="row">
+            <p>
+                 For comparison, take a look at Ashbery's first few lines:
+            </p>                 
+        </section>
+    <section class="row">
+            <pre class ="col-md-6 col-md-offset-3">
+                    As Parmigianino did it, the right hand
+                    Bigger than the head, thrust at the viewer
+                    And swerving easily away, as though to protect 
+                    What it advertises
+                </pre> 
+        </section>
+        <section class="row">
+            <p>Of course, not every word has an antonym - like what is the antonym of "Parmigianino"? or "[a]s" for that matter? - those two first words of <a href="http://www.poetryfoundation.org/poetrymagazine/browse/124/5#!/20596528"><b><u>Self-Portrait in a Convex Mirror</u></b></a>...But what you can see there is that the first word the program picks up on is the word "right", as in "the right hand". The result is the word "wrongfulness". Nice. I think the next word it picks up must be "head" since the program outputs "tail". Lol. Definitely not perfect, since I'd expect it to pick up on "[b]igger" and make it into "smaller". Alas. </p>
+        </section>
+        <section class= "row">
+        <img src="img/ashbery-older-selfie.jpg" alt="Older Ashbery selfying" class="center-block img-responsive ashbery">
+        </section>
+        <section class= "row">   
+        <p>Anyways, here it is, presented in honour of and dedicated to Mr. John Ashbery himself.</p>
+        </section>
+        <section class= "row">
+            <h2 class = "col-md-8 col-md-offset-3"><em>Self-Portrait in a Concave Mirror</em></h2>
+        </section>
+        <section class= "row">
+            <pre class = "concave col-md-8 col-md-offset-4">wrongfulness tail many leadless
+new open chain 
+dark disclaim differ ascend dark dispersion darkness dull
+go under break unpointedness
+able kick downstairs slight
+quit relaxing differ bound quit
+forbear tall existent powerless unrestraint
+back forgetful patterned cold
+big solid inconsequence
+inattention lose lifelessness
+true dislike move disown
+refuse certainty show little
+harp disjoint
+likely incertain lightness darkness imploring
+retreat humbleness quench significant
+little little draw a blank
+rugged fine top of the inning
+wrongfulness half half unstable stableness
+unsafe profound unseeable rawness
+disown quit
+unsaturated reversal
+inattention draw a blank
+sound location
+few unsealed dark
+light-colored darkness
+regular first docile dry full
+chromatic back
+inactiveness freeze perpendicular
+unlike ignore curving big
+dark possible bust
+sharpen imperfect unsealed change
+uneasy make it shallow
+trustfulness strong unneeded existent ignore
+dark disown undo few existent come before
+decline undo come along
+break change half
+untoughened undue fewer asleep nascence
+fewer early differ sink asleep
+cease dead irreality inaccuracy
+impotent ugliness dark ignore unimportance
+patterned native unpointedness impotent
+ugliness differ
+euphoric dead 
+halt bear in mind familiar civilian decline
+unusual diverge differ unpointedness civilian
+unscientific elderly misconception
+low spirits angulate second differ inconsequence
+decline half differ indulgent
+same decline decline dark beginning
+disown differ diffused terminate
+wake most middle go off
+same unanimated location
+location blow up worn
+worn soften
+impotent sighted activity
+unacknowledged inertia 
+private differ 
+differ covert confirming 
+disconfirming ignore halt 
+worn differ rural back rested new civilian eliminate 
+likely fresh interrogation go forth differ 
+terminate 
+differ wrongfulness paranormal paranormal
+shut decline covered disclaim 
+nonrandom disorderly paranormal nondevelopment 
+draw a blank inconsequence 
+little unpleasant nascence differ 
+nascence natural acquittal carry off 
+forgetful black unsealed ugly 
+nonspecific distributive time to come 
+darkness decline nonmeaningful halt 
+slight differ thin slight differ 
+differ crude hatred conspicuous 
+absent ignore differ full defined differ 
+improbable incapable same darkness 
+absent temporary darkness differ 
+hatred ugly more than cloudy retreat 
+dissatisfaction beginning set out new 
+dark unpainted ignore tall later 
+dark decline draw a blank absent unlike 
+absent forgetful equivalent 
+word differ unsubstantial nix absent 
+eventful draw a blank terminate 
+private differ opening dead future 
+start colour undo eliminate inattention 
+half differ disown 
+enjoy break 
+unscripted 
+unfledged 
+imprecise 
+harsh unpointedness 
+nonbeing fewer 
+unlike distinguishable tautness 
+same fraction 
+most half 
+unpointedness friendly 
+common friendly 
+decline most unregretting 
+differ beginning similar 
+second inexplicit 
+unconscious cognisant 
+nonessential worn same 
+terminate 
+ascend go forth 
+decline implausible 
+jumpy 
+commencement 
+differ 
+playful 
+least extraordinary inertia 
+open up 
+cognise back 
+differ friend 
+elevate dark 
+infertile 
+go away 
+fewer more 
+than mild 
+valuable impermanency 
+differ playful finishing 
+little future decline 
+lean little 
+half beginning decline 
+suspect ignore differ differ imperfect 
+unusual decline decline unpointedness 
+unnaturalness differ second outer 
+discomposure second unfrozen 
+unwelcome unconventionality 
+decline worsened decline 
+bank right beginning 
+increase darkness 
+sharpen nonbeing 
+unsubstantial untroubled 
+decline dematerialise 
+inactiveness 
+hot motion 
+difficultness 
+half ignore 
+hot</pre>
+        </section>
+
+    </main>
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src='js/jquery-ui.min.js'></script>
+    <script src="js/main.js"></script>
+    <script>
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-55771414-3', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
