@@ -168,6 +168,13 @@ $(document).ready(function() {
   });
 });
 
+// ASHBERY
+
+$("#concave-clicker").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#concave").offset().top
+    }, 2000);
+});
 
 
 
