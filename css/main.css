@@ -347,7 +347,7 @@ a.qlogo:active {
 
 main.mxt_plausible p {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.75em;
@@ -468,7 +468,7 @@ a.tblogo:active {
 
 .eckhoffs_undoing {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.7em;
@@ -568,7 +568,7 @@ a.logo:active {
 
 .kernels {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.75em;
@@ -807,7 +807,7 @@ a.slogo:active {
 
 .thrum-hum {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.75em;
@@ -895,7 +895,7 @@ a.ralogo:active {
 
 .rara {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1.1em;
     line-height: 2em;
@@ -915,7 +915,7 @@ main.rara a {
 
 .foundlangra {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1em;
     line-height: 2em;
@@ -957,7 +957,7 @@ a.bglogo:active {
 
 .bardglow {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1.1em;
     line-height: 2em;
@@ -1008,7 +1008,7 @@ a.fologo:active {
 
 .forages {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1.1em;
     line-height: 2em;
@@ -1113,7 +1113,7 @@ a.sillogo:active {
 
 .revolving {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1.1em;
     line-height: 2em;
@@ -1194,7 +1194,7 @@ a.downlogo:active {
 
 .downversed {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1.1em;
     line-height: 2.2em;
@@ -1294,7 +1294,7 @@ a.malogo:active {
 
 .malice {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1.25em;
     line-height: 2.25em;
@@ -1387,7 +1387,7 @@ a.culogo:active {
 
 .cutup {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1em;
     line-height: 2em;
@@ -1450,7 +1450,7 @@ a.ttlogo:active {
 
 .think {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1em;
     line-height: 2em;
@@ -1507,10 +1507,8 @@ a.ashlogo:link {
     text-decoration: none;
 }
 
-
-
 a.ashlogo:hover {
-    background: -webkit-linear-gradient(#FF0041, #FF0000 );
+    background: -webkit-linear-gradient(#FF0041, #FF0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1518,6 +1516,8 @@ a.ashlogo:hover {
 a.ashlogo:active {
     text-decoration: none;
 }
+
+
 /*bliue*/
 
 .ashfont {
@@ -1525,9 +1525,10 @@ a.ashlogo:active {
     font-weight: bold;
     font-size: 6em;
 }
+
 .ashberyaha {
     font-family: "Merriweather";
-    font-weight: 300;
+    font-weight: 400;
     /*text-align: justify;*/
     font-size: 1em;
     line-height: 2em;
@@ -1540,6 +1541,7 @@ a.ashlogo:active {
     text-align: left;
     overflow: hidden;
 }
+
 .ashberyaha h2 {
     font-family: 'Tangerine', cursive;
     font-size: 5em;
@@ -1547,26 +1549,99 @@ a.ashlogo:active {
 
 img.ashbery {
     max-height: 400px;
-
 }
+
 .ashberyaha pre {
     background-color: white;
     border: none;
     margin-bottom: 0;
-  
 }
+
 .ashberyaha pre.concave {
     font-family: "Times New Roman";
     font-size: 1.25em;
     background-color: white;
     border: none;
     margin-bottom: 0;
-  
 }
+
 main.ashberyaha > section.row {
-
     margin-bottom: 3.5em;
+}
 
+
+/* ==========================================================================
+BERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEIN
+   ========================================================================== */
+
+a.charlogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+    background: -webkit-linear-gradient(#F08DD7, #FFEE95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.charlogo:link {
+    text-decoration: none;
+}
+
+.charlogo a:visited {
+    text-decoration: none;
+}
+
+a.charlogo:hover {
+    background: -webkit-linear-gradient(#ADF0E0, #8FD3FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.recalculating-images {
+    height: 80vh;
+}
+
+.carscalc {
+    /*opacity: 0.3;*/
+}
+
+.bernstein {
+    font-family: "Merriweather";
+    font-weight: 400;
+    /*text-align: justify;*/
+    font-size: 1.25em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+}
+
+.bernsteingraph h1 {
+    margin: 2.5% 0;
+}
+
+.bernsteingraph iframe {
+    margin-top: 3.5%;
+    margin-bottom: 4.5%;
+}
+
+.bernsteingraph pre {
+    font-family: "Times New Roman";
+    font-size: 1em;
+    /*background-color: white;*/
+    border: none;
+    margin-bottom: 2.5%;
+}
+.bernsteingraph p {
+  margin: 4.5% 0;
 }
 
 /* ==========================================================================
