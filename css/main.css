@@ -1648,6 +1648,100 @@ a.charlogo:hover {
   margin: 4.5% 0;
 }
 
+
+/* ==========================================================================
+Jaime Forsythe SYMPATHY LOOPHOLE
+   ========================================================================== */
+
+a.forslogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+    background: -webkit-linear-gradient(#F08DD7, #FFEE95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.forslogo:link {
+    text-decoration: none;
+}
+
+.forslogo a:visited {
+    text-decoration: none;
+}
+
+a.forslogo:hover {
+    background: -webkit-linear-gradient(#ADF0E0, #8FD3FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.forsythe {
+    font-family: "Merriweather";
+    font-weight: 400;
+    /*text-align: justify;*/
+    font-size: 1.25em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+
+}
+
+
+/* ==========================================================================
+THIN KIMONO MICHAEL EARL CRAIG
+   ========================================================================== */
+
+a.kimologo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+    background: -webkit-linear-gradient(#F08DD7, #FFEE95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a.kimologo:link {
+    text-decoration: none;
+}
+
+.kimologo a:visited {
+    text-decoration: none;
+}
+
+a.kimologo:hover {
+    background: -webkit-linear-gradient(#ADF0E0, #8FD3FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.kimonocraig {
+    font-family: "Merriweather";
+    font-weight: 400;
+    /*text-align: justify;*/
+    font-size: 1.25em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
