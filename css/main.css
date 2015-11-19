@@ -120,14 +120,20 @@ img {
 }
 
 header.logo h1 {
-    font-family: 'Monoton';
-    font-size: 13vw;
+    /*font-family: 'Monoton';*/
+    /*font-family: 'Tangerine', cursive;*/
+    /*font-family: 'League Script', cursive;*/
+    font-family: 'Calligraffitti', cursive;
+    font-size: 9vw;
+    /*text-transform: uppercase;*/
     transform: scaleY(1.1);
     font-weight: lighter;
-    margin-top: 0;
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
     padding-left: 0;
-    letter-spacing: 0.2em;
-    opacity: 0.666;
+    letter-spacing: 0.1em;
+    /*opacity: 0.466;*/
 }
 
 #poetical-underline {
@@ -177,11 +183,15 @@ nav.navbar {
 .masthead {
     font-family: "Oxygen";
     font-size: 1em;
-    opacity: 0.9;
+    opacity: 0.4;
     font-weight: bold;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 
+
+.blogline {
+    margin-bottom: 3em;
+}
 .homepage {
     font-family: "Helvetica Neue";
     margin-bottom: 4em;
@@ -277,7 +287,7 @@ footer {
     font-family: "Oxygen";
     margin-left: 1em;
     font-weight: bold;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 #contact p:first-child {
@@ -1682,7 +1692,7 @@ a.forslogo:hover {
     font-family: "Merriweather";
     font-weight: 400;
     /*text-align: justify;*/
-    font-size: 1.25em;
+    font-size: 1.15em;
     line-height: 2em;
     margin-top: 5em;
     padding-left: 5em;
@@ -1729,7 +1739,7 @@ a.kimologo:hover {
     font-family: "Merriweather";
     font-weight: 400;
     /*text-align: justify;*/
-    font-size: 1.25em;
+    font-size: 1.15em;
     line-height: 2em;
     margin-top: 5em;
     padding-left: 5em;
