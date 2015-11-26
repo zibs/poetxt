@@ -1717,7 +1717,7 @@ a.kimologo {
     letter-spacing: 0.2em;
     /*color: rgba(8, 16, 25, 1);*/
     font-size: 72px;
-    background: -webkit-linear-gradient(#F08DD7, #FFEE95);
+    background: -webkit-linear-gradient(#FFE9B9, #C1B397);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1731,7 +1731,7 @@ a.kimologo:link {
 }
 
 a.kimologo:hover {
-    background: -webkit-linear-gradient(#ADF0E0, #8FD3FF);
+    background: -webkit-linear-gradient(#E4E2DF, #8E8E8E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1749,8 +1749,15 @@ a.kimologo:hover {
     /*text-indent: 2em;*/
     text-align: left;
     overflow: hidden;
-
 }
+.kimonocraig > .row {
+  
+}
+
+.kimonocraig > .row > article > p {
+  margin-bottom: 5%;
+}
+
 
 /* ==========================================================================
    Helper classes
