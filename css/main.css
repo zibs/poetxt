@@ -1670,7 +1670,7 @@ a.forslogo {
     letter-spacing: 0.2em;
     /*color: rgba(8, 16, 25, 1);*/
     font-size: 72px;
-    background: -webkit-linear-gradient(#F08DD7, #FFEE95);
+    background: -webkit-linear-gradient(#FFCD00, #FF3600);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1684,7 +1684,7 @@ a.forslogo:link {
 }
 
 a.forslogo:hover {
-    background: -webkit-linear-gradient(#ADF0E0, #8FD3FF);
+    background: -webkit-linear-gradient(#3A7ED1, #8FD3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
