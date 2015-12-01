@@ -176,6 +176,15 @@ $("#concave-clicker").click(function() {
     }, 2000);
 });
 
+// JAIME SHARPE
+$(document).ready(function(){
+    $("#moveone").delay(400).fadeIn(2000);
+    $("#movetwo").delay(1500).fadeIn(3000);
+    $("#movethree").delay(2500).fadeIn(3000);
+
+
+});
+
 
 
 

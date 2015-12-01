@@ -188,10 +188,10 @@ nav.navbar {
     margin-bottom: 5em;
 }
 
-
 .blogline {
     margin-bottom: 3em;
 }
+
 .homepage {
     font-family: "Helvetica Neue";
     margin-bottom: 4em;
@@ -1481,8 +1481,9 @@ a.ttlogo:active {
 .think > section.row {
     margin-bottom: 5%;
 }
+
 .think > section.row > p {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .think pre {
@@ -1493,7 +1494,6 @@ a.ttlogo:active {
 
 .think > .row > h1 {
     font-size: 50em;
-
 }
 
 
@@ -1654,8 +1654,9 @@ a.charlogo:hover {
     border: none;
     margin-bottom: 2.5%;
 }
+
 .bernsteingraph p {
-  margin: 4.5% 0;
+    margin: 4.5% 0;
 }
 
 
@@ -1688,6 +1689,7 @@ a.forslogo:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .forsythe {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1702,7 +1704,47 @@ a.forslogo:hover {
     /*text-indent: 2em;*/
     text-align: left;
     overflow: hidden;
+    height: 150vh;
+}
 
+.forsythe > .row > article > p {
+    margin: 7.5% 0;
+}
+
+#moveone {
+    display: none;
+    -moz-animation: 20s moveone 60s;
+    -webkit-animation: 20s moveone 60s;
+}
+
+#movetwo {
+    display: none;
+    -moz-animation: 19s movetwo 59s;
+    -webkit-animation: 19s movetwo 59s;
+}
+
+#movethree {
+    display: none;
+    -moz-animation: 19s movethree 58s;
+    -webkit-animation: 19s movethree 58s;
+}
+
+@keyframes moveone {
+    100% {
+        transform: translateY(50vh) scale(5);
+    }
+}
+
+@keyframes movetwo {
+    100% {
+        transform: translateY(-20vh) scale(5);
+    }
+}
+
+@keyframes movethree {
+    100% {
+        transform: translateY(-30vh) scale(5);
+    }
 }
 
 
@@ -1735,6 +1777,7 @@ a.kimologo:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .kimonocraig {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1750,12 +1793,11 @@ a.kimologo:hover {
     text-align: left;
     overflow: hidden;
 }
-.kimonocraig > .row {
-  
-}
+
+.kimonocraig > .row {}
 
 .kimonocraig > .row > article > p {
-  margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 
