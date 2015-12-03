@@ -1713,20 +1713,20 @@ a.forslogo:hover {
 
 #moveone {
     display: none;
-    -moz-animation: 20s moveone 60s;
-    -webkit-animation: 20s moveone 60s;
+    -moz-animation: 24s moveone 35s;
+    -webkit-animation: 24s moveone 35s;
 }
 
 #movetwo {
     display: none;
-    -moz-animation: 19s movetwo 59s;
-    -webkit-animation: 19s movetwo 59s;
+    -moz-animation: 23s movetwo 34s;
+    -webkit-animation: 23s movetwo 34s;
 }
 
 #movethree {
     display: none;
-    -moz-animation: 19s movethree 58s;
-    -webkit-animation: 19s movethree 58s;
+    -moz-animation: 23s movethree 33s;
+    -webkit-animation: 23s movethree 33s;
 }
 
 @keyframes moveone {
