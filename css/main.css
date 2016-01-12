@@ -21,7 +21,6 @@ html {
     line-height: 1.4;
 }
 
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -34,12 +33,10 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 
 /*
  * A better looking default horizontal rule
@@ -54,22 +51,15 @@ hr {
     padding: 0;
 }
 
-
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
-
 
 /*
  * Remove default fieldset styles.
@@ -81,7 +71,6 @@ fieldset {
     padding: 0;
 }
 
-
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -89,7 +78,6 @@ fieldset {
 textarea {
     resize: vertical;
 }
-
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -102,7 +90,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -110,15 +97,12 @@ textarea {
 body {
     margin: 0 3em 2em 3em;
 }
-
 img {
     max-width: 100%;
 }
-
 .lead {
     padding-left: 0;
 }
-
 header.logo h1 {
     /*font-family: 'Monoton';*/
     /*font-family: 'Tangerine', cursive;*/
@@ -135,51 +119,40 @@ header.logo h1 {
     letter-spacing: 0.1em;
     /*opacity: 0.466;*/
 }
-
 #poetical-underline {
     height: 12vh;
     position: relative;
     bottom: 2.5em;
     opacity: 0.5;
 }
-
 span.lazuli:hover {
     color: rgba(154, 239, 255, 1);
 }
-
 span.sand:hover {
     color: rgba(255, 231, 152, 1);
 }
-
 span.lips:hover {
     color: rgba(255, 57, 57, 1);
 }
-
 span#leaf:hover {
     color: rgba(129, 254, 122, 1);
 }
-
 span#iris:hover {
     color: rgba(135, 126, 255, 1);
 }
-
 span#aquamarine:hover {
     color: rgba(152, 255, 229, 1);
 }
-
 header.logo p {
     text-align: center;
     line-height: 0;
 }
-
 nav.navbar {
     margin-bottom: 0;
 }
-
 .lead {
     margin-bottom: 0;
 }
-
 .masthead {
     font-family: "Oxygen";
     font-size: 1em;
@@ -187,65 +160,51 @@ nav.navbar {
     font-weight: bold;
     margin-bottom: 5em;
 }
-
 .blogline {
     margin-bottom: 3em;
 }
-
 .homepage {
     font-family: "Helvetica Neue";
     margin-bottom: 4em;
 }
-
 .homepage h2 {
     /*color: rgba(65, 65, 65, 1);*/
     font-size: 2em;
 }
-
 .homepage u {
     text-decoration: none;
     border-bottom: 1px solid grey;
 }
-
 .homepage img {
     max-width: 100%;
     max-height: 200px;
 }
-
 .directions {
     font-family: "Oxygen";
     margin-bottom: 2em;
 }
-
 #kern {
     padding-top: 20%;
 }
-
 .blog_post img {
     display: block;
 }
-
 a {
     color: black;
 }
-
 a:link {
     text-decoration: none;
 }
-
 a:visited {
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: none;
     color: black;
 }
-
 a:active {
     text-decoration: none;
 }
-
 footer {
     position: fixed;
     bottom: 0px;
@@ -254,18 +213,15 @@ footer {
     width: 100%;
     /*background:#999;*/
 }
-
 #query {
     font-family: "Oxygen";
     font-size: 2em;
     cursor: pointer;
     z-index: 2;
 }
-
 #query:hover {
     color: black;
 }
-
 #contact {
     display: none;
     /*text-align: center;*/
@@ -282,32 +238,90 @@ footer {
     position: fixed;
     padding: 1em;
 }
-
 #contact p {
     font-family: "Oxygen";
     margin-left: 1em;
     font-weight: bold;
     /*text-align: justify;*/
 }
-
 #contact p:first-child {
     margin: 1em 0 1.5em 1em;
 }
-
 #contact p:last-child {
     margin-top: 2em;
     text-align: center;
     font-size: 1.2em;
 }
-
 .whitewrap {
     display: none;
 }
-
 .titlewhite {
     display: none;
 }
 
+/* ==========================================================================
+  STEFFANIE LING -- THIN CUTS OF MEAT
+   ========================================================================== */
+
+a.stefflogo {
+    text-decoration: none;
+    font-family: "Monoton";
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    /*color: rgba(8, 16, 25, 1);*/
+    font-size: 72px;
+    background: -webkit-linear-gradient(#3604b0, #232126);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+a.stefflogo:link {
+    text-decoration: none;
+}
+.stefflogo a:visited {
+    text-decoration: none;
+}
+a.stefflogo:hover {
+    background: -webkit-linear-gradient(#3f7305, #0d2511);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sliced-thin {
+    font-family: "Merriweather";
+    font-weight: 400;
+    /*text-align: justify;*/
+    font-size: 1.15em;
+    line-height: 2em;
+    margin-top: 5em;
+    padding-left: 5em;
+    margin-left: 5em;
+    padding-right: 5em;
+    margin-right: 5em;
+    /*text-indent: 2em;*/
+    text-align: left;
+    overflow: hidden;
+}
+.sliced-thin p {
+    margin: 35% 0 0 0;
+}
+pre.steff {
+    white-space: pre-wrap;
+    /* CSS 3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+    word-break: normal;
+    margin-top: 10%;
+}
+
+.note {
+  /*padding-right: 5%;*/
+  display: inline-block;
+}
 
 /*====================*/
 
@@ -330,31 +344,24 @@ a.qlogo {
     letter-spacing: 0.2em;
     color: rgba(41, 243, 182, 1);
 }
-
 a.qlogo:link {
     text-decoration: none;
 }
-
 .qlogo a:visited {
     text-decoration: none;
 }
-
 a.qlogo:hover {
     color: rgba(255, 56, 143, 1);
 }
-
 a.qlogo:active {
     text-decoration: none;
 }
-
 .book_info {
     margin-top: 2.5%;
 }
-
 .book_info a {
     color: grey;
 }
-
 main.mxt_plausible p {
     font-family: "Merriweather";
     font-weight: 400;
@@ -362,70 +369,55 @@ main.mxt_plausible p {
     font-size: 1.2em;
     line-height: 1.75em;
 }
-
 main.mxt_plausible a {
     text-decoration: underline;
     color: #000;
 }
-
 main.mxt_plausible a:hover {
     text-decoration: underline;
     color: #000;
 }
-
 .fa {
     opacity: 0.5;
     text-align: center;
 }
-
 #bumpE {
     padding-top: 4%;
     text-decoration: none;
 }
-
 .proposition_two {
     padding-top: 4%;
 }
-
 #circleplus {
     padding-top: 15%;
 }
-
 .proposition_three {
     margin-top: 5%;
 }
-
 .fa-level-down {
     transform: scaleX(-1);
     padding-top: 4%;
 }
-
 .proposition_four {
     margin-top: 5%;
 }
-
 #times {
     padding-top: 4%;
 }
-
 .proposition_five {
     margin-top: 10%;
 }
-
 .proposition_six {
     margin-top: 10%;
 }
-
 .math {
     text-align: center;
     opacity: 0.75;
     font-size: 4em;
 }
-
 #footling {
     padding-bottom: 5em;
 }
-
 
 /*====================*/
 
@@ -448,34 +440,27 @@ a.tblogo {
     letter-spacing: 0.2em;
     color: rgba(154, 0, 197, 1);
 }
-
 a.tblogo:link {
     text-decoration: none;
 }
-
 .tblogo a:visited {
     text-decoration: none;
 }
-
 a.tblogo:hover {
     color: rgba(255, 116, 0, 1);
 }
-
 a.tblogo:active {
     text-decoration: none;
 }
-
 .book_info {
     width: 25%;
 }
-
 .book_info img {
     max-width: 100%;
     max-height: 200px;
     float: left;
     margin-right: 0.5em;
 }
-
 .eckhoffs_undoing {
     font-family: "Merriweather";
     font-weight: 400;
@@ -484,51 +469,40 @@ a.tblogo:active {
     line-height: 1.7em;
     margin-top: 4em;
 }
-
 .eckhoffs_undoing pre {
     background-color: white;
     border: none;
 }
-
 main.eckhoffs_undoing a {
     text-decoration: underline;
     color: #000;
 }
-
 main.eckhoffs_undoing a:hover {
     text-decoration: underline;
     color: #000;
 }
-
 .chapter {
     margin: 1em 0;
 }
-
 .eckhoffs_undoing aside p {
     text-align: left;
 }
-
 #theflyer {
     float: right;
 }
-
 #whoiskevin {
     margin: 2em 0 1.5em 0;
 }
-
 #sourcekevin {
     margin: 1em 0 1.5em 0;
 }
-
 #loveexpires {
     margin: 1em 0 2em 0;
 }
-
 #lovenotice {
     height: 30px;
     margin: 1em 0 1em 0;
 }
-
 #blanklove {
     float: left;
     margin-right: 0.5em;
@@ -536,15 +510,12 @@ main.eckhoffs_undoing a:hover {
     border: 1px solid grey;
     padding: 0;
 }
-
 .finale {
     margin-top: 4em;
 }
-
 .finale img {
     margin: 1em 0 2em 0;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -559,23 +530,18 @@ a.klogo {
     letter-spacing: 0.2em;
     color: rgba(251, 0, 13, 1);
 }
-
 a.klogo:link {
     text-decoration: none;
 }
-
 .klogo a:visited {
     text-decoration: none;
 }
-
 a.klogo:hover {
     color: rgba(36, 59, 206, 1);
 }
-
 a.logo:active {
     text-decoration: none;
 }
-
 .kernels {
     font-family: "Merriweather";
     font-weight: 400;
@@ -585,21 +551,18 @@ a.logo:active {
     margin-top: 5em;
     width: 80%;
 }
-
 .kerns-longest-words {
     font-size: 2em;
     font-weight: bold;
     margin-top: 2em;
     text-align: center;
 }
-
 .kerns-longest-words p:last-child {
     font-size: initial;
     font-weight: 300;
     font-size: 0.4em;
     /*text-align: left;*/
 }
-
 .kerns-longest-word-clump {
     margin-top: 1em;
     margin-bottom: 2em;
@@ -608,84 +571,70 @@ a.logo:active {
     line-height: 0.1em;
     text-align: center;
 }
-
 main.kernels a {
     text-decoration: underline;
     color: #000;
 }
-
 .every-q p:first-child {
     font-size: 15em;
     margin-top: 0.5em;
 }
-
 .every-q p:nth-child(2) {
     font-size: 15em;
     transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
 }
-
 .every-q p:nth-child(3) {
     font-size: 15em;
     transform: rotate(30deg);
     -webkit-transform: (30deg);
 }
-
 .every-q p:nth-child(4) {
     font-size: 15em;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-
 .every-q p:nth-child(5) {
     font-size: 15em;
     transform: rotate(60deg);
     -webkit-transform: rotate(60deg);
 }
-
 .every-q p:nth-child(6) {
     font-size: 15em;
     transform: rotate(75deg);
     -webkit-transform: rotate(75deg);
 }
-
 .every-q p:nth-child(7) {
     font-size: 15em;
     transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
 }
-
 .every-q p:nth-child(8) {
     font-size: 15em;
     transform: rotate(105deg);
     -webkit-transform: rotate(105deg);
 }
-
 .every-q p:nth-child(9) {
     font-size: 15em;
     transform: rotate(120deg);
     -webkit-transform: rotate(120deg);
 }
-
 .every-q p:nth-child(10) {
     font-size: 15em;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
 }
-
 .every-q p:nth-child(11) {
     font-size: 15em;
     transform: rotate(150deg);
     -webkit-transform: rotate(150deg);
 }
-
 .every-q p:nth-child(12) {
     font-size: 15em;
     transform: rotate(165deg);
     -webkit-transform: rotate(165deg);
     margin-bottom: 0.5em;
 }
-
 .every-q p:last-child {
     position: relative;
     margin-bottom: 4em;
@@ -694,41 +643,34 @@ main.kernels a {
     font-weight: 300;
     font-size: 0.85em;
 }
-
 .authorial-intrusion {
     color: grey;
 }
-
 .pleasenomore {
     position: relative;
     margin: 2em 0;
     font-weight: 300;
     z-index: 1;
 }
-
 .pleasenomore p:last-child {
     width: 80%;
     margin: 2.5em auto;
     white-space: pre-wrap;
     text-align: justify;
 }
-
 .kern-every-e {
     margin: 4em 0;
 }
-
 .top-row p {
     display: inline-block;
     line-height: 0.1em;
 }
-
 .letter:nth-child(2n+1) {
     transform: scale(2.5) rotate(15deg);
     -webkit-transform: scale(2.5) rotate(15deg);
     /*color: purple;*/
     letter-spacing: 0.5em;
 }
-
 .letter:nth-child(3n+1) {
     transform: skewX(15deg) rotate(100deg) translateY(35px);
     -webkit-transform: skewX(15deg) rotate(100deg) translateY(35px);
@@ -736,32 +678,27 @@ main.kernels a {
     /*color: green;*/
     letter-spacing: 0.2em;
 }
-
 .letter:nth-child(10n+300) {
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     font-size: 3em;
 }
-
 .letter:nth-child(300n) {
     font-size: 9em;
     transform: skewX(120deg);
     -webkit-transform: skewX(120deg);
 }
-
 .letter:nth-child(50n+4) {
     transform: skewY(200deg);
     -webkit-transform: skewY(200deg);
     /*  color: blue;*/
     font-size: 5em;
 }
-
 .letter:nth-child(100n+69) {
     font-size: 15em;
     float: left;
     /*color: pink;*/
 }
-
 .letter:nth-child(100n+50) {
     font-size: 4em;
     transform: translateX(-1em) skewY(20deg);
@@ -769,21 +706,17 @@ main.kernels a {
     ;
     /*color: yellow;*/
 }
-
 .middle p {
     display: inline-block;
     line-height: 0.3em;
 }
-
 .kern-definition {
     margin-top: 5em;
 }
-
 .fj {
     margin: 1em;
     font-size: 25em;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -798,23 +731,18 @@ a.slogo {
     letter-spacing: 0.2em;
     color: rgba(255, 244, 86, 1);
 }
-
 a.slogo:link {
     text-decoration: none;
 }
-
 .slogo a:visited {
     text-decoration: none;
 }
-
 a.slogo:hover {
     color: rgba(192, 192, 192, 1);
 }
-
 a.slogo:active {
     text-decoration: none;
 }
-
 .thrum-hum {
     font-family: "Merriweather";
     font-weight: 400;
@@ -824,54 +752,42 @@ a.slogo:active {
     margin-top: 5em;
     width: 70%;
 }
-
 main.thrum-hum a {
     text-decoration: underline;
     color: #000;
 }
-
 .sounding {
     margin-bottom: 8em;
 }
-
 .sounding p {
     display: inline-block;
     /*margin-bottom: 1.1em;*/
 }
-
 .benjam {
     margin-bottom: 8em;
 }
-
 .benjam p {
     display: inline-block;
 }
-
 .sifting {
     margin-bottom: 5em;
 }
-
 .sifting p {
     display: inline-block;
 }
-
 .stein-begin {
     margin-bottom: 5em;
 }
-
 .the-hapax {
     margin-bottom: 5em;
 }
-
 .letter-action-language p:last-child {
     font-size: 0.75em;
     margin-bottom: 5em;
 }
-
 .dabar {
     margin-bottom: 5em;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -886,23 +802,18 @@ a.ralogo {
     letter-spacing: 0.2em;
     color: rgba(129, 47, 49, 1);
 }
-
 a.ralogo:link {
     text-decoration: none;
 }
-
 .ralogo a:visited {
     text-decoration: none;
 }
-
 a.ralogo:hover {
     color: rgba(97, 122, 44, 1);
 }
-
 a.ralogo:active {
     text-decoration: none;
 }
-
 .rara {
     font-family: "Merriweather";
     font-weight: 400;
@@ -912,17 +823,14 @@ a.ralogo:active {
     margin-top: 5em;
     width: 80%;
 }
-
 main.rara a {
     text-decoration: underline;
     color: #000;
 }
-
 #tom-dedicate {
     font-size: 0.75em;
     font-style: italic;
 }
-
 .foundlangra {
     font-family: "Merriweather";
     font-weight: 400;
@@ -933,7 +841,6 @@ main.rara a {
     border: none;
     text-align: right;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -948,23 +855,18 @@ a.bglogo {
     letter-spacing: 0.2em;
     color: rgba(143, 167, 245, 1);
 }
-
 a.bglogo:link {
     text-decoration: none;
 }
-
 .bglogo a:visited {
     text-decoration: none;
 }
-
 a.bglogo:hover {
     color: rgba(131, 225, 243, 1);
 }
-
 a.bglogo:active {
     text-decoration: none;
 }
-
 .bardglow {
     font-family: "Merriweather";
     font-weight: 400;
@@ -974,17 +876,14 @@ a.bglogo:active {
     margin-top: 5em;
     width: 80%;
 }
-
 .bardglow article {
     margin-bottom: 5em;
     text-indent: 4em;
 }
-
 main.bardglow a {
     text-decoration: underline;
     color: #000;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -999,23 +898,18 @@ a.fologo {
     letter-spacing: 0.2em;
     color: rgba(151, 255, 0, 1);
 }
-
 a.fologo:link {
     text-decoration: none;
 }
-
 .fologo a:visited {
     text-decoration: none;
 }
-
 a.fologo:hover {
     color: rgba(0, 205, 62, 1);
 }
-
 a.fologo:active {
     text-decoration: none;
 }
-
 .forages {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1029,7 +923,6 @@ a.fologo:active {
     margin-right: 5em;
     overflow: hidden;
 }
-
 .intervene {
     background-color: white;
     font-family: "Courier";
@@ -1038,7 +931,6 @@ a.fologo:active {
     word-break: break-word;
     width: 90%;
 }
-
 .fontent {
     position: relative;
     line-height: 2.2em;
@@ -1046,15 +938,12 @@ a.fologo:active {
     margin-bottom: 8em;
     text-indent: 3em;
 }
-
 .left-lateral p {
     display: inline;
 }
-
 .right-lateral p {
     display: inline;
 }
-
 .left-lateral {
     display: inline-block;
     padding-right: 13em;
@@ -1065,13 +954,11 @@ a.fologo:active {
     text-align: justify;
     font-size: 0.8em;
 }
-
 .stretchtext {
     width: 100%;
     height: 1em;
     display: inline-block;
 }
-
 .right-lateral {
     display: inline-block;
     float: right;
@@ -1084,12 +971,10 @@ a.fologo:active {
     font-size: 0.8em;
     height: 10px;
 }
-
 .bottom-lateral {
     text-align: justify;
     font-size: 0.8em;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -1104,23 +989,18 @@ a.sillogo {
     letter-spacing: 0.2em;
     color: rgba(200, 30, 0, 1);
 }
-
 a.sillogo:link {
     text-decoration: none;
 }
-
 .sillogo a:visited {
     text-decoration: none;
 }
-
 a.sillogo:hover {
     color: rgba(50, 15, 200, 1);
 }
-
 a.sillogo:active {
     text-decoration: none;
 }
-
 .revolving {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1135,42 +1015,33 @@ a.sillogo:active {
     text-indent: 4em;
     overflow: hidden;
 }
-
 .revolving article.row {
     margin-bottom: 8em;
 }
-
 .revolving iframe {
     margin-top: 1em;
 }
-
 
 /*Silligraphs*/
 
 #silligraph {
     opacity: 0;
 }
-
 #silligrapha {
     opacity: 0;
 }
-
 #silligraphb {
     opacity: 0;
 }
-
 #silligraphc {
     opacity: 0;
 }
-
 #silligraphd {
     opacity: 0;
 }
-
 #silligraphe {
     opacity: 0;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -1185,23 +1056,18 @@ a.downlogo {
     letter-spacing: 0.2em;
     color: rgba(122, 16, 255, 1);
 }
-
 a.downlogo:link {
     text-decoration: none;
 }
-
 .downlogo a:visited {
     text-decoration: none;
 }
-
 a.downlogo:hover {
     color: rgba(255, 192, 0, 1);
 }
-
 a.downlogo:active {
     text-decoration: none;
 }
-
 .downversed {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1217,60 +1083,47 @@ a.downlogo:active {
     text-align: justify;
     overflow: hidden;
 }
-
 .downversed .row {
     margin-bottom: 8em;
 }
-
 .downversed img {
     margin: 5em 0;
 }
-
 .flarjcollage {
     position: relative;
 }
-
 .flarjcollage img {}
-
 #bladefish {
     position: absolute;
     top: 2%;
     right: 3%;
 }
-
 #bucks {
     position: relative;
     left: 10em;
     height: 80vh;
 }
-
 #coin {
     position: absolute;
     right: 2%;
     height: 40vh;
 }
-
 .dinos {
     position: relative;
 }
-
 #color {
     position: relative;
 }
-
 #csi {
     position: relative;
     bottom: 25em;
 }
-
 #moon {
     height: 100vh;
 }
-
 #realestate {
     height: 400vh;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -1285,23 +1138,18 @@ a.malogo {
     letter-spacing: 0.2em;
     color: rgba(8, 16, 25, 1);
 }
-
 a.malogo:link {
     text-decoration: none;
 }
-
 .malogo a:visited {
     text-decoration: none;
 }
-
 a.malogo:hover {
     color: rgba(130, 40, 0, 1);
 }
-
 a.malogo:active {
     text-decoration: none;
 }
-
 .malice {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1317,21 +1165,17 @@ a.malogo:active {
     text-align: justify;
     overflow: hidden;
 }
-
 .malice > article.row p {
     margin-bottom: 5%;
 }
-
 .kenquote {
     font-size: 20em;
     margin-bottom: 12%;
     padding-bottom: 5%;
 }
-
 .malice > article.row > section pre {
     margin-bottom: 5%;
 }
-
 pre.donnedone {
     background-color: white;
     font-size: 4em;
@@ -1339,25 +1183,20 @@ pre.donnedone {
     line-height: 0.5em;
     overflow: hidden;
 }
-
 pre.donnesplat {
     letter-spacing: 2em;
     line-height: 0.2em;
 }
-
 pre.donnejustice {
     letter-spacing: 20px;
 }
-
 pre.kandlinge {
     font-size: 100em;
 }
-
 .malicer p {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -1376,25 +1215,20 @@ a.culogo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.culogo:link {
     text-decoration: none;
 }
-
 .culogo a:visited {
     text-decoration: none;
 }
-
 a.culogo:hover {
     background: -webkit-linear-gradient(#3e2ead, #E52350);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.culogo:active {
     text-decoration: none;
 }
-
 .cutup {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1410,17 +1244,14 @@ a.culogo:active {
     text-align: left;
     overflow: hidden;
 }
-
 .cutup > article.row {
     margin-bottom: 15%;
 }
-
 .cutup pre {
     background-color: white;
     border: none;
     margin-bottom: 0;
 }
-
 
 /* ==========================================================================
 /* ==========================================================================
@@ -1439,25 +1270,20 @@ a.ttlogo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.ttlogo:link {
     text-decoration: none;
 }
-
 .ttlogo a:visited {
     text-decoration: none;
 }
-
 a.ttlogo:hover {
     background: -webkit-linear-gradient(#3f2efd, #E99359);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.ttlogo:active {
     text-decoration: none;
 }
-
 .think {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1473,29 +1299,23 @@ a.ttlogo:active {
     text-align: left;
     overflow: hidden;
 }
-
 .asterisk {
     margin-bottom: 5%;
 }
-
 .think > section.row {
     margin-bottom: 5%;
 }
-
 .think > section.row > p {
     margin-bottom: 5%;
 }
-
 .think pre {
     background-color: white;
     border: none;
     margin-bottom: 5%;
 }
-
 .think > .row > h1 {
     font-size: 50em;
 }
-
 
 /* ==========================================================================
 ASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERYASHBERY
@@ -1512,25 +1332,20 @@ a.ashlogo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.ashlogo:link {
     text-decoration: none;
 }
-
 .ashlogo a:visited {
     text-decoration: none;
 }
-
 a.ashlogo:hover {
     background: -webkit-linear-gradient(#FF0041, #FF0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.ashlogo:active {
     text-decoration: none;
 }
-
 
 /*bliue*/
 
@@ -1539,7 +1354,6 @@ a.ashlogo:active {
     font-weight: bold;
     font-size: 6em;
 }
-
 .ashberyaha {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1555,22 +1369,18 @@ a.ashlogo:active {
     text-align: left;
     overflow: hidden;
 }
-
 .ashberyaha h2 {
     font-family: 'Tangerine', cursive;
     font-size: 5em;
 }
-
 img.ashbery {
     max-height: 400px;
 }
-
 .ashberyaha pre {
     background-color: white;
     border: none;
     margin-bottom: 0;
 }
-
 .ashberyaha pre.concave {
     font-family: "Times New Roman";
     font-size: 1.25em;
@@ -1578,11 +1388,9 @@ img.ashbery {
     border: none;
     margin-bottom: 0;
 }
-
 main.ashberyaha > section.row {
     margin-bottom: 3.5em;
 }
-
 
 /* ==========================================================================
 BERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEINBERNSTEIN
@@ -1599,29 +1407,23 @@ a.charlogo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.charlogo:link {
     text-decoration: none;
 }
-
 .charlogo a:visited {
     text-decoration: none;
 }
-
 a.charlogo:hover {
     background: -webkit-linear-gradient(#ADF0E0, #8FD3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .recalculating-images {
     height: 80vh;
 }
-
 .carscalc {
     /*opacity: 0.3;*/
 }
-
 .bernstein {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1637,16 +1439,13 @@ a.charlogo:hover {
     text-align: left;
     overflow: hidden;
 }
-
 .bernsteingraph h1 {
     margin: 2.5% 0;
 }
-
 .bernsteingraph iframe {
     margin-top: 3.5%;
     margin-bottom: 4.5%;
 }
-
 .bernsteingraph pre {
     font-family: "Times New Roman";
     font-size: 1em;
@@ -1654,11 +1453,9 @@ a.charlogo:hover {
     border: none;
     margin-bottom: 2.5%;
 }
-
 .bernsteingraph p {
     margin: 4.5% 0;
 }
-
 
 /* ==========================================================================
 Jaime Forsythe SYMPATHY LOOPHOLE
@@ -1675,21 +1472,17 @@ a.forslogo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.forslogo:link {
     text-decoration: none;
 }
-
 .forslogo a:visited {
     text-decoration: none;
 }
-
 a.forslogo:hover {
     background: -webkit-linear-gradient(#3A7ED1, #8FD3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .forsythe {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1706,47 +1499,39 @@ a.forslogo:hover {
     overflow: hidden;
     height: 150vh;
 }
-
 .forsythe > .row > article > p {
     margin: 7.5% 0;
 }
-
 #moveone {
     display: none;
     -moz-animation: 24s moveone 35s;
     -webkit-animation: 24s moveone 35s;
 }
-
 #movetwo {
     display: none;
     -moz-animation: 23s movetwo 34s;
     -webkit-animation: 23s movetwo 34s;
 }
-
 #movethree {
     display: none;
     -moz-animation: 23s movethree 33s;
     -webkit-animation: 23s movethree 33s;
 }
-
 @keyframes moveone {
     100% {
         transform: translateY(50vh) scale(5);
     }
 }
-
 @keyframes movetwo {
     100% {
         transform: translateY(-20vh) scale(5);
     }
 }
-
 @keyframes movethree {
     100% {
         transform: translateY(-30vh) scale(5);
     }
 }
-
 
 /* ==========================================================================
 THIN KIMONO MICHAEL EARL CRAIG
@@ -1763,21 +1548,17 @@ a.kimologo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 a.kimologo:link {
     text-decoration: none;
 }
-
 .kimologo a:visited {
     text-decoration: none;
 }
-
 a.kimologo:hover {
     background: -webkit-linear-gradient(#E4E2DF, #8E8E8E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .kimonocraig {
     font-family: "Merriweather";
     font-weight: 400;
@@ -1793,13 +1574,10 @@ a.kimologo:hover {
     text-align: left;
     overflow: hidden;
 }
-
 .kimonocraig > .row {}
-
 .kimonocraig > .row > article > p {
     margin-bottom: 5%;
 }
-
 
 /* ==========================================================================
    Helper classes
@@ -1815,7 +1593,6 @@ a.kimologo:hover {
     display: none !important;
     visibility: hidden;
 }
-
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -1833,15 +1610,13 @@ a.kimologo:hover {
     width: 1px;
 }
 
-
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -1850,7 +1625,6 @@ a.kimologo:hover {
     width: auto;
 }
 
-
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -1858,7 +1632,6 @@ a.kimologo:hover {
 .invisible {
     visibility: hidden;
 }
-
 
 /*
  * Clearfix: contain floats
@@ -1872,18 +1645,15 @@ a.kimologo:hover {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     /* 1 */
     display: table;
     /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
-
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -1896,7 +1666,6 @@ a.kimologo:hover {
         display: none;
     }
 }
-
 @media only screen and (max-width: 35em) {
     header.logo h1 {
         font-size: 3em;
@@ -1905,7 +1674,6 @@ a.kimologo:hover {
         margin-bottom: 2em;
     }
 }
-
 @media only screen and (max-width: 767px) {
     header.logo h1 {
         font-size: 5em;
@@ -1914,7 +1682,6 @@ a.kimologo:hover {
         margin-bottom: 5em;
     }
 }
-
 @media only screen and (max-width: 480px) {
     header.logo h1 {
         font-size: 3.5em;
@@ -1926,24 +1693,17 @@ a.kimologo:hover {
         margin-bottom: 5em;
     }
 }
-
 @media only screen and (max-width: 992px) {
     . {
         display: none;
     }
 }
-
 @media only screen and (min-width: 992em) {
     /* Style adjustments for viewports that meet the condition */
 }
-
-@media print,
-(-o-min-device-pixel-ratio: 5/4),
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 120dpi) {
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
-
 
 /* ==========================================================================
    Print styles.
@@ -1952,9 +1712,7 @@ a.kimologo:hover {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
+    *, *:before, *:after {
         background: transparent !important;
         color: #000 !important;
         /* Black prints faster:
@@ -1962,8 +1720,7 @@ a.kimologo:hover {
         box-shadow: none !important;
         text-shadow: none !important;
     }
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
     a[href]:after {
@@ -1976,12 +1733,10 @@ a.kimologo:hover {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
@@ -1992,21 +1747,17 @@ a.kimologo:hover {
     thead {
         display: table-header-group;
     }
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
     img {
         max-width: 100% !important;
     }
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
